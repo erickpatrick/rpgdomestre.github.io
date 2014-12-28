@@ -1,0 +1,24 @@
+* {padding:0; margin:0;box-sizing: border-box;}
+
+body {font:normal normal normal 1em/1.5 'Helvetica Neue', Helvetica, Arial, Sans-serif}
+
+.main-header {background-color: #f3f3f3; padding:1em 0; margin-bottom:2em; text-align:center}
+
+.section {overflow: hidden; width:90%; margin:0 auto; text-align: center}
+
+.guide {display:inline-block; height:250px; width:250px; }
+.guide-icons {background: transparent url(images/guide-icons-spritesheet.png) 0 0 no-repeat; height:150px; width:150px; display: inline-block;}
+.guide-icons-beginners {background-position: ;}
+.guide-icons-players {background-position: ;}
+.guide-icons-masters {background-position: ;}
+.guide-icons-races {background-position: ;}
+.guide-icons-classes {background-position: ;}
+.guide-icons-items {background-position: ;}
+.guide-icons-monsters {background-position: ;}
+.guide-icons-villains {background-position: ;}
+.guide-icons-places {background-position: ;}
+.guide-icons-systems {background-position: ;}
+.guide-icons-apps {background-position: ;}
+.guide-icons-shops {background-position: ;}
+.guide-title {}
+.guide-description {}

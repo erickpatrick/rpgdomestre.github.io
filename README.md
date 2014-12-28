@@ -1,4 +1,4 @@
-rpgdomestre.github.io
-=====================
+rpgdm.github.com
+================
 
-Código para o site do RPG do Mestre
+Site do RPG do Mestre
