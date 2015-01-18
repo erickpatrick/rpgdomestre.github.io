@@ -46,29 +46,17 @@
 
     .column {display: inline-block; width:100%; vertical-align: top;}
 
-    .header {
-      background: #fff url('images/logo-header.png') top center no-repeat;
-      background-size:contain;
-      padding-top:2.5em;
-    }
+    .header {background: #fff url('images/logo-header.png') top center no-repeat;background-size:contain;padding-top:2.5em;}
 
-    .nav {
-      overflow: hidden;
-      font-size:0.95em;
-    }
+    .nav {overflow: hidden;font-size:1.3em;}
 
-    .nav a {
-      display: inline-block;
-      font-variant: small-caps;
-      outline-color: #ccc;
-    }
-    .nav a:hover {
-      color:#000;
-      text-decoration: underline;
-    }
+    .nav a {display: block;padding:.25em .5em;font-variant: small-caps;outline-color: #ccc;color:#000;text-decoration: none;}
 
-    .nav .links {
-    }
+    .nav a:hover {color:#000;text-decoration: underline;}
+
+    .links-meta {overflow:hidden;}
+    .links-items {display: none; border-top:1px solid #ddd;}
+    .links-items a {border-bottom:1px solid #ddd;padding-bottom:.40em;}
 
     /*480*/
     @media only screen and (min-width:30em) {
@@ -78,8 +66,11 @@
     /*640*/
     @media only screen and (min-width:40em) {
       .header {width:100%; height:100px; background-size:contain; padding-top:0em;}
-      .nav {background: rgba(255,255,255,.95); border-bottom:1px #bbb solid;}
-      .nav a {padding:.5em .5em .7em .5em; color:#000; text-decoration: none;}
+      .nav {font-size:0.9em; background: rgba(255,255,255,.95); border-bottom:1px #bbb solid;}
+      .nav a {display: inline-block;padding:.5em .5em .7em .5em;}
+      .nav .links {text-align: left;}
+      .nav .show-links {display: none;}
+      .links-items {display: inline-block; border:none;}
     }
 
     /*768*/
@@ -108,9 +99,41 @@
   <div class="header">
     <div class="nav">
       <div class="links">
-        <a href="#">colunas</a><!-- --><a href="#">autores</a><!-- --><a href="#">papo de mestre</a><!-- --><a href="#">contato</a>
+        <div class="links-meta">
+          <a class="show-links" id="show-links">menu</a>
+        </div>
+        <div class="links-items" id="links-items">
+          <a href="#">colunas</a><!-- --><a href="#">autores</a><!-- --><a href="#">papo de mestre</a><!-- --><a href="#">contato</a>
+        </div>
       </div>
     </div>
   </div>
+  <script>
+    // equivalent to $(el).ready();
+    function ready(fn) {
+      if (document.readyState != 'loading'){
+        fn();
+      } else {
+        document.addEventListener('DOMContentLoaded', fn);
+      }
+    }
+
+    ready(function() {
+      var showLinks = document.getElementById('show-links');
+      var menu = document.getElementById('links-items');
+
+      // @media only screen and (min-width: 40em)
+      if (window.innerWidth < 640) {
+        showLinks.addEventListener('click', function() {
+
+          if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+          } else {
+            menu.style.display = 'block';
+          }
+        });
+      }
+    });
+  </script>
 </body>
 </html>
