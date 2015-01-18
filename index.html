@@ -37,13 +37,38 @@
 
   <style>
     * {padding:0;margin:0;box-sizing: border-box;}
-    body {font:normal normal 1em/1.35 Arial, Verdana, sans-serif; }
+    body {font:normal normal 1em/1.35 "Arial Black", Arial, Verdana, sans-serif; color: #000;}
+    a {color:#000;}
+    a:visited {color:#666;}
+    a:hover {color:#000;}
 
     html, body {height: 100%;}
 
-    .btn {display: block; padding:.75em; margin:1em 0; text-decoration:none; color:#fff; font-size:1.25em;}
-
     .column {display: inline-block; width:100%; vertical-align: top;}
+
+    .header {
+      background: #fff url('images/logo-header.png') top center no-repeat;
+      background-size:contain;
+      padding-top:2.5em;
+    }
+
+    .nav {
+      overflow: hidden;
+      font-size:0.95em;
+    }
+
+    .nav a {
+      display: inline-block;
+      font-variant: small-caps;
+      outline-color: #ccc;
+    }
+    .nav a:hover {
+      color:#000;
+      text-decoration: underline;
+    }
+
+    .nav .links {
+    }
 
     /*480*/
     @media only screen and (min-width:30em) {
@@ -52,12 +77,17 @@
 
     /*640*/
     @media only screen and (min-width:40em) {
+      .header {width:100%; height:100px; background-size:contain; padding-top:0em;}
+      .nav {background: rgba(255,255,255,.95); border-bottom:1px #bbb solid;}
+      .nav a {padding:.5em .5em .7em .5em; color:#000; text-decoration: none;}
     }
 
+    /*768*/
+    @media only screen and (min-width:48em) {
+    }
+
+    /*960*/
     @media only screen and (min-width:60em) {
-      .column {width:25%;}
-      .column--2 {width:50%;}
-      .column--3 {width:75%;}
     }
 
     /*1024*/
@@ -75,7 +105,12 @@
   </style>
 </head>
 <body>
-  <div class="wrapper">
+  <div class="header">
+    <div class="nav">
+      <div class="links">
+        <a href="#">colunas</a><!-- --><a href="#">autores</a><!-- --><a href="#">papo de mestre</a><!-- --><a href="#">contato</a>
+      </div>
+    </div>
   </div>
 </body>
 </html>
