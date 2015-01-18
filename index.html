@@ -129,6 +129,10 @@
           if (menu.style.display == 'block') {
             menu.style.display = 'none'
           } else {
+            menu.style.zIndex = '9999999';
+            menu.style.position = 'absolute';
+            menu.style.width = '100%';
+            menu.style.backgroundColor = 'rgba(255,255,255,0.95)';
             menu.style.display = 'block';
           }
         });
