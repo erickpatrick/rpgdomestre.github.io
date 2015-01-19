@@ -1,27 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <title>RPG do Mestre | Onde o mestre ensina RPG</title>
+  <meta charset="utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>Página Inicial | RPG do Mestre - Onde os Mestres Ensinam RPG</title>
+  <meta name="description" content="O RPG do Mestre é um blog com conteúdo para jogos de interpretação (RPG). Você encontrará de tudo um pouco: Notícias, resenhas, aventuras, cenários e muito mais.">
+  <meta name="keywords" content="rpg, role playing game, roleplaying, mestre, dungeon master, jogo de interpretação, dnd, dragon, dragão, gurps, fate, savage worlds, wod, mundo das trevas, world of darkness, cenários, aventuras, personagens, itens mágicos, magias, armaduras, vilões, monstros">
+  <meta name="author" content="Erick Patrick">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@rpgdm">
+  <meta name="twitter:title" content="Página Inicial | RPG do Mestre - Onde os Mestres Ensinam RPG">
+  <meta name="twitter:description" content="O RPG do Mestre é um blog com conteúdo para jogos de interpretação (RPG). Você encontrará de tudo um pouco: Notícias, resenhas, aventuras, cenários e muito mais.">
+  <meta name="twitter:creator" content="@erickpatrick">
+  <meta name="twitter:image:src" content="http://rpgdomestre.com/images/logo.jpg">
+  <meta name="twitter:domain" content="http://rpgdomestre.com">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="http://rpgdomestre.com"/>
+  <meta property="og:title" content="Página Inicial | RPG do Mestre - Onde os Mestres Ensinam RPG"/>
+  <meta property="og:image" content="http://rpgdomestre.com/images/logo.jpg"/>
+  <meta property="og:site_name" content="RPG do Mestre - Onde os Mestres Ensinam RPG"/>
+  <meta property="og:description" content="O RPG do Mestre é um blog com conteúdo para jogos de interpretação (RPG). Você encontrará de tudo um pouco: Notícias, resenhas, aventuras, cenários e muito mais."/>
+
+  <!-- FB Insights -->
+  <meta property="fb:admins" content="1386933601" />
+
+  <!-- Google+ Meta Tags -->
+  <meta itemprop="name" content="Página Inicial | RPG do Mestre - Onde os Mestres Ensinam RPG">
+  <meta itemprop="description" content="O RPG do Mestre é um blog com conteúdo para jogos de interpretação (RPG). Você encontrará de tudo um pouco: Notícias, resenhas, aventuras, cenários e muito mais.">
+  <meta itemprop="image" content="http://rpgdomestre.com/images/logo.jpg">
+
+  <link rel="author" href="http://google.com/+ErickPatrick1988" />
+  <link rel="publisher" href="https://plus.google.com/106548017304866738979/posts">
 
   <meta property="fb:admins" content="1386933601" />
 
   <style>
+    * {padding:0;margin:0;box-sizing: border-box;}
+    body {font:normal normal 1em/1.35 "Arial Black", Arial, Verdana, sans-serif; color: #000;}
+    a {color:#000;}
+    a:visited {color:#666;}
+    a:hover {color:#000;}
+
     html, body {height: 100%;}
-    body {padding:0 auto;margin:0 auto; font: normal normal normal 16px/1.3 Arial, sans-serif;}
-    .wrapper {background: #f3f3f3; color: #000;  display: table; height:100%; width:100%; min-height:100%;}
-    .content {display: table-cell; vertical-align: middle; text-align: center; width:100%;}
-    h1 {font-size:8em; line-height: 1}
-    h2, h3 {text-transform: uppercase;}
+
+    .column {display: inline-block; width:100%; vertical-align: top;}
+
+    .header {background: #fff url('images/logo-header.png') top center no-repeat;background-size:contain;padding-top:2.5em;}
+
+    .nav {overflow: hidden;font-size:1.3em;}
+
+    .nav a {display: block;padding:.25em .5em;font-variant: small-caps;outline-color: #ccc;color:#000;text-decoration: none;}
+
+    .nav a:hover {color:#000;text-decoration: underline;}
+
+    .links-meta {overflow:hidden;}
+    .links-items {display: none; border-top:1px solid #ddd;}
+    .links-items a {border-bottom:1px solid #ddd;padding-bottom:.40em;}
+
+    /*480*/
+    @media only screen and (min-width:30em) {
+      .btn {display:inline-block;}
+    }
+
+    /*640*/
+    @media only screen and (min-width:40em) {
+      .header {width:100%; height:100px; background-size:contain; padding-top:0em;}
+      .nav {font-size:0.9em; background: rgba(255,255,255,.95); border-bottom:1px #bbb solid;}
+      .nav a {display: inline-block;padding:.5em .5em .7em .5em;}
+      .nav .links {text-align: left;}
+      .nav .show-links {display: none;}
+      .links-items {display: inline-block; border:none;}
+    }
+
+    /*768*/
+    @media only screen and (min-width:48em) {
+    }
+
+    /*960*/
+    @media only screen and (min-width:60em) {
+    }
+
+    /*1024*/
+    @media only screen and (min-width:64em) {
+    }
+
+    /*1120*/
+    @media only screen and (min-width:70em) {
+      .wrapper {width:90%; max-width:1140px; margin:0 auto;}
+    }
+
+    @media only screen and (min-width:80em) {
+    }
+
   </style>
 </head>
 <body>
-  <div class="wrapper">
-    <div class="content">
-      <a href="#" title="RPG do Mestre"><img src="images/logo.jpg" alt="Logo RPG do Mestre"></a>
+  <div class="header">
+    <div class="nav">
+      <div class="links">
+        <div class="links-meta">
+          <a class="show-links" id="show-links">menu</a>
+        </div>
+        <div class="links-items" id="links-items">
+          <a href="#">colunas</a><!-- --><a href="#">autores</a><!-- --><a href="#">papo de mestre</a><!-- --><a href="#">contato</a>
+        </div>
+      </div>
     </div>
   </div>
+  <script>
+    // equivalent to $(el).ready();
+    function ready(fn) {
+      if (document.readyState != 'loading'){
+        fn();
+      } else {
+        document.addEventListener('DOMContentLoaded', fn);
+      }
+    }
+
+    ready(function() {
+      var showLinks = document.getElementById('show-links');
+      var menu = document.getElementById('links-items');
+
+      // @media only screen and (min-width: 40em)
+      if (window.innerWidth < 640) {
+        showLinks.addEventListener('click', function() {
+
+          if (menu.style.display == 'block') {
+            menu.style.display = 'none'
+          } else {
+            menu.style.zIndex = '9999999';
+            menu.style.position = 'absolute';
+            menu.style.width = '100%';
+            menu.style.backgroundColor = 'rgba(255,255,255,0.95)';
+            menu.style.display = 'block';
+          }
+        });
+      }
+    });
+  </script>
 </body>
 </html>
