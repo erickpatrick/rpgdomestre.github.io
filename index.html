@@ -39,14 +39,20 @@
 
   <style>
     * {padding:0;margin:0;box-sizing: border-box;}
-    body {font:normal normal 1em/1.35 "Arial Black", Arial, Verdana, sans-serif; color: #000;}
+    body {font:normal normal 1em/1.35 Arial, Verdana, sans-serif; color: #000;}
     a {color:#000;}
     a:visited {color:#666;}
     a:hover {color:#000;}
 
     html, body {height: 100%;}
 
+    .wrapper {padding:0 10px;}
     .column {display: inline-block; width:100%; vertical-align: top;}
+
+    .btn {display:inline-block;padding:.5em 1em; border:1px #ddd solid;}
+    .btn-fb, .btn-tt {font-size:.75em; margin:1em 1em 0 0; text-decoration:none; color:#000; font-weight: bold;}
+    .btn-fb, .btn-fb:visited {background:#002266; color:#fff; border-color:#335599;}
+    .btn-tt, .btn-tt:visited {background:#0055cc; color:#fff; border-color:#3388ee;}
 
     .header {background: #fff url('images/logo-header.png') top center no-repeat;background-size:contain;padding-top:2.5em;}
 
@@ -59,6 +65,15 @@
     .links-meta {overflow:hidden;}
     .links-items {display: none; border-top:1px solid #ddd;}
     .links-items a {border-bottom:1px solid #ddd;padding-bottom:.40em;}
+
+    .load-posts {padding:1em; text-align: center; margin-bottom:1em;}
+
+    .categories {overflow:hidden;margin-bottom: 2em;}
+    .cat1, .cat2, .cat3, .cat4 {padding:1em; min-height:200px;}
+    .cat1 {background-color: #666;}
+    .cat2 {background-color: #999;}
+    .cat3 {background-color: #333;}
+    .cat4 {background-color: #ccc;}
 
     /*480*/
     @media only screen and (min-width:30em) {
@@ -73,10 +88,28 @@
       .nav .links {text-align: left;}
       .nav .show-links {display: none;}
       .links-items {display: inline-block; border:none;}
+
+      .column {float:left; width:50%;}
+      .main-post {overflow: hidden; padding-bottom:3em; margin-bottom: 2em; border-bottom:1px solid #eee;}
+
+      .latest-posts {overflow: hidden;}
+      .post {padding:0 1em 1em 1em; margin-bottom:1em; border-bottom: 1px solid #eee;}
+      .post-title {margin-bottom:1em;}
     }
 
     /*768*/
     @media only screen and (min-width:48em) {
+      .column {width:25%;}
+      .column_2 {width:50%;}
+      .column_3 {width:75%;}
+
+      .header {margin-bottom:4em;}
+
+      .main-post-title {font-size:1.5em; line-height: 1.15; padding-right:.5em;}
+      .main-post-meta {text-align: right; padding-left: .5em;}
+      .main-post-excerpt {font-size:1.15em; margin-bottom: 1em;}
+
+      .post {padding:0 1em; border:none;}
     }
 
     /*960*/
@@ -89,7 +122,7 @@
 
     /*1120*/
     @media only screen and (min-width:70em) {
-      .wrapper {width:90%; max-width:1140px; margin:0 auto;}
+      .wrapper {width:90%; max-width:1040px; margin:0 auto; padding:0;}
     }
 
     @media only screen and (min-width:80em) {
@@ -107,6 +140,60 @@
         <div class="links-items" id="links-items">
           <a href="#">colunas</a><!-- --><a href="#">autores</a><!-- --><a href="#">papo de mestre</a><!-- --><a href="#">contato</a>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="wrapper">
+      <header class="main-post">
+        <div class="main-post-title column column_2">
+          <h1>Estamos quase voltando... Aguarde!</h1>
+          <a href="#" class="btn btn-fb">Facebook</a><a href="#" class="btn btn-tt">Twitter</a>
+        </div>
+        <div class="main-post-meta column column_2">
+          <p class="main-post-excerpt">
+            O <strong>RPG do Mestre</strong> passou por um bom hiato. Mas a espera está prestes a acabar pessoal. Esperem só mais um pouco, enquanto terminamos de fazer os ajustes finais no <em>layout</em>. Aos poucos, estamos atualizando o site com uma versão atualizada do <em>layout</em>. Fiquem ligados!
+          </p>
+          <strong class="main-post-meta-content">
+            Em <em>24/01/2014</em>, por <em>Erick Patrick</em>
+          </strong>
+        </div>
+      </header>
+
+      <div class="latest-posts">
+        <div class="column post">
+          <h3 class="post-title">Título de uma próxima publicação</h3>
+          <p>Em breve, você poderá ler o resumo de alguma das publicações mais recentes do <strong>RPG do Mestre</strong> neste espaço.</p>
+        </div>
+        <div class="column post">
+          <h3 class="post-title">Título de uma próxima publicação</h3>
+          <p>Em breve, você poderá ler o resumo de alguma das publicações mais recentes do <strong>RPG do Mestre</strong> neste espaço.</p>
+        </div>
+        <div class="column post">
+          <h3 class="post-title">Título de uma próxima publicação</h3>
+          <p>Em breve, você poderá ler o resumo de alguma das publicações mais recentes do <strong>RPG do Mestre</strong> neste espaço.</p>
+        </div>
+        <div class="column post">
+          <h3 class="post-title">Título de uma próxima publicação</h3>
+          <p>Em breve, você poderá ler o resumo de alguma das publicações mais recentes do <strong>RPG do Mestre</strong> neste espaço.</p>
+        </div>
+      </div>
+      <div class="load-posts">
+        <a href="#" class="btn btn-posts">ver todos os posts</a>
+      </div>
+    </div>
+    <div class="categories">
+      <div class="column category cat1">
+        <h2>Categoria 1</h2>
+      </div>
+      <div class="column category cat2">
+        <h2>Categoria 2</h2>
+      </div>
+      <div class="column category cat3">
+        <h2>Categoria 3</h2>
+      </div>
+      <div class="column category cat4">
+        <h2>Categoria 4</h2>
       </div>
     </div>
   </div>
