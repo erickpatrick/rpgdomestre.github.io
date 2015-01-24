@@ -75,6 +75,8 @@
     .cat3 {background-color: #333;}
     .cat4 {background-color: #ccc;}
 
+    .podcast {padding:1em; background:#dedede; margin-bottom: 1em;}
+
     /*480*/
     @media only screen and (min-width:30em) {
       .btn {display:inline-block;}
@@ -95,6 +97,11 @@
       .latest-posts {overflow: hidden;}
       .post {padding:0 1em 1em 1em; margin-bottom:1em; border-bottom: 1px solid #eee;}
       .post-title {margin-bottom:1em;}
+
+      .podcast {overflow:hidden;}
+      .podcast-title {float:left;}
+      .btn-podcast {float:right; background:#000; color:#fff; text-decoration: none; margin:.5em .5em 0 0;}
+      .btn-podcast:visited {color:#fff;}
     }
 
     /*768*/
@@ -194,6 +201,15 @@
       </div>
       <div class="column category cat4">
         <h2>Categoria 4</h2>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="podcast">
+        <div class="podcast-title">
+          <h2>Papo de Mestre #40 - A volta dos que não foram</h2>
+          <h4>RPG, Boardgames, Avengers 2, Game of Thrones e muito mais!</h4>
+        </div>
+        <a href="#" class="btn btn-podcast">Assistir Papo de Mestre #40</a>
       </div>
     </div>
   </div>
