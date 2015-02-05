@@ -40,9 +40,10 @@
   <style>
     * {padding:0;margin:0;box-sizing: border-box;}
     body {font:normal normal 1em/1.35 Arial, Verdana, sans-serif; color: #000;}
-    a {color:#000;}
-    a:visited {color:#666;}
-    a:hover {color:#000;}
+    .main-post-title, .post-title, .main-post-meta-content {color:#031d48;}
+    a {color:#031d48;}
+    a:visited {color:#1e3760;}
+    a:hover {color:#031d48;}
 
     html, body {height: 100%;}
 
@@ -50,7 +51,7 @@
     .column {display: inline-block; width:100%; vertical-align: top;}
 
     .btn {display:inline-block;padding:.5em 1em; border:1px #ddd solid;}
-    .btn-fb, .btn-tt {font-size:.75em; margin:1em 1em 0 0; text-decoration:none; color:#000; font-weight: bold;}
+    .btn-fb, .btn-tt {font-size:.75em; margin:1em 1em 0 0; text-decoration:none; color:#1e3760; font-weight: bold;}
     .btn-fb, .btn-fb:visited {background:#002266; color:#fff; border-color:#335599;}
     .btn-tt, .btn-tt:visited {background:#0055cc; color:#fff; border-color:#3388ee;}
 
@@ -58,15 +59,17 @@
 
     .nav {overflow: hidden;font-size:1.3em;}
 
-    .nav a {display: block;padding:.25em .5em;font-variant: small-caps;outline-color: #ccc;color:#000;text-decoration: none;}
+    .nav a {display: block;padding:.25em .5em;font-variant: small-caps;outline-color: #ccc;color:#1e3760;text-decoration: none;}
 
-    .nav a:hover {color:#000;text-decoration: underline;}
+    .nav a:hover {color:#031d48;text-decoration: underline;}
 
     .links-meta {overflow:hidden;}
     .links-items {display: none; border-top:1px solid #ddd;}
     .links-items a {border-bottom:1px solid #ddd;padding-bottom:.40em;}
 
     .load-posts {padding:1em; text-align: center; margin-bottom:1em;}
+    .btn-posts, .btn-podcast {background:#1e3760; color:#fff; text-decoration: none;}
+    .btn-posts:hover, .btn-podcast:hover {background:#031d48; color:#fff;}
 
     .categories {overflow:hidden;margin-bottom: 2em;}
     .cat1, .cat2, .cat3, .cat4 {padding:1em; min-height:200px;}
@@ -75,7 +78,7 @@
     .cat3 {background-color: #333;}
     .cat4 {background-color: #ccc;}
 
-    .podcast {padding:1em; background:#dedede; margin-bottom: 1em;}
+    .podcast {padding:1em; background:#eaeaea; margin-bottom: 1em;}
 
     /*480*/
     @media only screen and (min-width:30em) {
@@ -100,7 +103,7 @@
 
       .podcast {overflow:hidden;}
       .podcast-title {float:left;}
-      .btn-podcast {float:right; background:#000; color:#fff; text-decoration: none; margin:.5em .5em 0 0;}
+      .btn-podcast {float:right; margin:.5em .5em 0 0;}
       .btn-podcast:visited {color:#fff;}
     }
 
