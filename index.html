@@ -72,13 +72,10 @@
     .btn-posts:hover, .btn-podcast:hover {background:#031d48; color:#fff;}
 
     .categories {overflow:hidden;margin-bottom: 2em;}
-    .cat1, .cat2, .cat3, .cat4 {padding:1em; min-height:200px;}
-    .cat1 {background-color: #666;}
-    .cat2 {background-color: #999;}
-    .cat3 {background-color: #333;}
-    .cat4 {background-color: #ccc;}
+    .category-title {display:block; padding:1em; color:#fff; text-align: center; background: #010b26; text-decoration: none;}
+    .category-title:hover {background: #1e3760; color:#fff;}
 
-    .podcast {padding:1em; background:#eaeaea; margin-bottom: 1em;}
+    .podcast {padding:1em; background:#eaeaea; margin-bottom: 2em;}
 
     /*480*/
     @media only screen and (min-width:30em) {
@@ -192,20 +189,6 @@
         <a href="#" class="btn btn-posts">ver todos os posts</a>
       </div>
     </div>
-    <div class="categories">
-      <div class="column category cat1">
-        <h2>Categoria 1</h2>
-      </div>
-      <div class="column category cat2">
-        <h2>Categoria 2</h2>
-      </div>
-      <div class="column category cat3">
-        <h2>Categoria 3</h2>
-      </div>
-      <div class="column category cat4">
-        <h2>Categoria 4</h2>
-      </div>
-    </div>
     <div class="wrapper">
       <div class="podcast">
         <div class="podcast-title">
@@ -213,6 +196,20 @@
           <h4>RPG, Boardgames, Avengers 2, Game of Thrones e muito mais!</h4>
         </div>
         <a href="#" class="btn btn-podcast">Assistir Papo de Mestre #40</a>
+      </div>
+    </div>
+    <div class="categories">
+      <div class="column category">
+        <h2><a href="#" class="category-title">Teoria dos Jogos</a></h2>
+      </div>
+      <div class="column category">
+        <h2><a href="#" class="category-title">Design de Jogos</a></h2>
+      </div>
+      <div class="column category">
+        <h2><a href="#" class="category-title">Resenhas</a></h2>
+      </div>
+      <div class="column category">
+        <h2><a href="#" class="category-title">RPG na Semana</a></h2>
       </div>
     </div>
   </div>
