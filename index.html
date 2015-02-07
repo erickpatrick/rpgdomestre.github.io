@@ -67,17 +67,16 @@
     .links-items {display: none; border-top:1px solid #ddd;}
     .links-items a {border-bottom:1px solid #ddd;padding-bottom:.40em;}
 
-    .main-post-meta {}
     .main-post-excerpt {font-size:1.15em; margin: 1em 0;}
 
     .load-posts {padding:1em; text-align: center; margin-bottom:1em;}
     .post {margin:1em 0;}
-    .btn-posts, .btn-podcast {background:#1e3760; color:#fff; text-decoration: none;}
+    .btn-posts, .btn-podcast, .btn-posts:visited, .btn-podcast:visited {background:#1e3760; color:#fff; text-decoration: none;}
     .btn-posts:hover, .btn-podcast:hover {background:#031d48; color:#fff;}
     .btn-podcast {margin:1em 0;}
 
     .categories {overflow:hidden;margin-bottom: 2em;}
-    .category-title {display:block; padding:1em; color:#fff; text-align: center; background: #010b26; text-decoration: none;}
+    .category-title, .category-title:visited {display:block; padding:1em; color:#fff; text-align: center; background: #010b26; text-decoration: none;}
     .category-title:hover {background: #1e3760; color:#fff;}
 
     .podcast {padding:1em; background:#eaeaea; margin-bottom: 2em;}
@@ -96,7 +95,8 @@
       .nav a {display: inline-block;padding:.5em .5em .7em .5em;}
       .nav .links {text-align: left;}
       .nav .show-links {display: none;}
-      .links-items {display: inline-block; border:none;}
+      .links-items {display: inline-block; border:none; overflow: hidden;}
+      .links-social {float: right;}
 
       .column {float:left; width:50%;}
       .main-post {overflow: hidden; padding-bottom:3em; margin-bottom: 2em; border-bottom:1px solid #eee;}
@@ -154,6 +154,9 @@
         </div>
         <div class="links-items" id="links-items">
           <a href="#">colunas</a><!-- --><a href="#">autores</a><!-- --><a href="#">papo de mestre</a><!-- --><a href="#">contato</a>
+        </div>
+        <div class="links-items links-social">
+          <span class="links-social"><a href="http://fb.me/rpgdomestre">facebook</a><!-- --><a href="http://twitter.com/rpgdm">twitter</a></span>
         </div>
       </div>
     </div>
@@ -244,6 +247,7 @@
     ready(function() {
       var showLinks = document.getElementById('show-links');
       var menu = document.getElementById('links-items');
+      var cy = document.getElementById('copyright_year');
 
       // @media only screen and (min-width: 40em)
       if (window.innerWidth < 640) {
@@ -261,7 +265,6 @@
         });
       }
 
-      var cy = document.getElementById('copyright_year');
       cy.appendChild(document.createTextNode((new Date).getFullYear()));
     });
   </script>
