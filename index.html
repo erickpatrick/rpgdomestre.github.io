@@ -77,6 +77,8 @@
 
     .podcast {padding:1em; background:#eaeaea; margin-bottom: 2em;}
 
+    .footer {overflow:hidden; text-align:center; margin:2em auto;}
+
     /*480*/
     @media only screen and (min-width:30em) {
       .btn {display:inline-block;}
@@ -102,6 +104,8 @@
       .podcast-title {float:left;}
       .btn-podcast {float:right; margin:.5em .5em 0 0;}
       .btn-podcast:visited {color:#fff;}
+      .footer {text-align: left;}
+      .layout_by {text-align: right;}
     }
 
     /*768*/
@@ -212,6 +216,16 @@
         <h2><a href="#" class="category-title">RPG na Semana</a></h2>
       </div>
     </div>
+    <div class="footer">
+      <div class="wrapper">
+        <div class="column column_2">
+          <p>&copy; 2009 &mdash; <span id="copyright_year"></span> RPG do Mestre</p>
+        </div>
+        <div class="column column_2 layout_by">
+          <p>layout por <a href="http://erickpatrick.net">Erick Patrick</a></p>
+        </div>
+      </div>
+    </div>
   </div>
   <script>
     // equivalent to $(el).ready();
@@ -242,6 +256,9 @@
           }
         });
       }
+
+      var cy = document.getElementById('copyright_year');
+      cy.appendChild(document.createTextNode((new Date).getFullYear()));
     });
   </script>
 </body>
