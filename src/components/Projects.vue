@@ -4,13 +4,6 @@
     <div v-for="(project, index) in projects" :key="index">
       <h6>{{ project.name }}</h6>
       <p>{{ project.description }}</p>
-      <footer>
-        <ul>
-          <li v-if="project.extras" v-for="(type, typesIndex) in project.extra.types" :key="typesIndex">
-              {{ type }}
-          </li>
-        </ul>
-      </footer>
     </div>
   </section>
 </template>
@@ -23,14 +16,9 @@ export default {
       projects: [
         {
           name: "Alter Ego",
-          description: "É o projeto mais recente do RPG do Mestre. Ele é dividido em três partes: Sistema, Cenário e Ficção. Sim, todos tem o mesmo nome, porém, \"sobrenomes\" diferentes. Para maiores informações, visite a página do projeto.",
-          extra: {
-            types: [
-              "Sistema",
-              "Cenário",
-              "Ficção"
-            ]
-          }
+          description:
+            "É o nosso projeto mais recente. Ele é dividido em três partes: Sistema, Cenário e Ficção. Sim, todos tem o mesmo nome, porém, " +
+            '"sobrenomes" diferentes. Para maiores informações, visite a página do projeto (em breve).'
         }
         // ,
         // {
@@ -39,9 +27,10 @@ export default {
         //   extra: ""
         // }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+</style>
