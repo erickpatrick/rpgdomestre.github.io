@@ -1,5 +1,5 @@
 <template>
-  <section class="projects">
+  <section class="section section--primary projects">
     <h4>Projetos</h4>
     <div class="project" v-for="(project, index) in projects" :key="index">
       <h6>{{ project.name }}</h6>
@@ -19,7 +19,7 @@ export default {
           name: "Alter Ego",
           description:
             "É o nosso projeto mais recente. Ele é dividido em três partes: Sistema, Cenário e Ficção. Sim, todos tem o mesmo nome, porém, " +
-            '"sobrenomes" diferentes. (em breve)',
+            '"sobrenomes" diferentes.',
           link: "/alter-ego"
         },
         {
@@ -36,15 +36,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.projects {
-  background-color: #f9f9f9;
-
-  &:before,
-  &:after {
-    background-color: #f9f9f9;
-  }
-}
-
 .project {
   padding: 2em 0;
 }
