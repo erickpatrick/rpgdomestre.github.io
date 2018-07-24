@@ -11,7 +11,7 @@
 
 <style lang="scss" scoped>
 ul {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   padding-left: 0;
   list-style: none;
   text-align: center;
