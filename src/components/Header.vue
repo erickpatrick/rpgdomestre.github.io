@@ -23,11 +23,7 @@ export default {
 
 <style lang="scss" scoped>
 header {
-  margin: 6rem 0 3em;
-
-  @media screen and (min-width: 50em) {
-    margin-bottom: 6em;
-  }
+  margin: 6rem 0 0;
 }
 
 h1 {
