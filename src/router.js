@@ -1,7 +1,5 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
-import About from "./views/About.vue";
 
 Vue.use(Router);
 
@@ -9,13 +7,23 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "inicial",
-      component: Home
+      name: "Inicial",
+      component: () => import("./views/Home.vue")
     },
     {
       path: "/sobre",
-      name: "sobre",
-      component: About
+      name: "Sobre",
+      component: () => import("./views/About.vue")
+    },
+    {
+      path: "/alter-ego",
+      name: "AlterEgo",
+      component: () => import("./views/projects/AlterEgo.vue")
+    },
+    {
+      path: "/weekly",
+      name: "Weekly",
+      component: () => import("./views/projects/Weekly.vue")
     }
   ]
 });
