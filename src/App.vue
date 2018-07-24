@@ -126,7 +126,7 @@ a {
 }
 
 section {
-  padding: 6em 0 3em;
+  padding: 3em 0;
   position: relative;
 
   &:before,
