@@ -25,9 +25,15 @@ export default {
 </script>
 
 <style lang="scss">
+html,
+body {
+  overflow-x: hidden;
+}
+
 html {
   font-size: 20px;
 }
+
 body {
   margin: 0;
   font: normal normal normal 1rem/1 "Palatino Linotype", Palatino, Palladio,
@@ -35,7 +41,6 @@ body {
     "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond",
     "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook",
     "Century Schoolbook L", Georgia, serif;
-  overflow-x: hidden;
 }
 
 a {
@@ -74,6 +79,7 @@ h3 {
     font-size: 3em;
   }
 }
+
 h4 {
   font-size: 1.75em;
 
