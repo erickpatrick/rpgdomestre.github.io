@@ -1,16 +1,10 @@
 <template>
   <section class="projects">
     <h4>Projetos</h4>
-    <div v-for="(project, index) in projects" :key="index">
+    <div class="project" v-for="(project, index) in projects" :key="index">
       <h6>{{ project.name }}</h6>
       <p>{{ project.description }}</p>
-      <footer>
-        <ul>
-          <li v-if="project.extras" v-for="(type, typesIndex) in project.extra.types" :key="typesIndex">
-              {{ type }}
-          </li>
-        </ul>
-      </footer>
+      <router-link :to="project.link">Visitar</router-link>
     </div>
   </section>
 </template>
@@ -23,25 +17,35 @@ export default {
       projects: [
         {
           name: "Alter Ego",
-          description: "É o projeto mais recente do RPG do Mestre. Ele é dividido em três partes: Sistema, Cenário e Ficção. Sim, todos tem o mesmo nome, porém, \"sobrenomes\" diferentes. Para maiores informações, visite a página do projeto.",
-          extra: {
-            types: [
-              "Sistema",
-              "Cenário",
-              "Ficção"
-            ]
-          }
+          description:
+            "É o nosso projeto mais recente. Ele é dividido em três partes: Sistema, Cenário e Ficção. Sim, todos tem o mesmo nome, porém, " +
+            '"sobrenomes" diferentes. (em breve)',
+          link: "/alter-ego"
+        },
+        {
+          name: "Weekly",
+          description:
+            "A Weekly é um projeto de curadoria de artigos, citações, imagens e links interessantes sobre o mundo do RPG para ajudar jogadores " +
+            "e mestres. (em breve)",
+          link: "/weekly"
         }
-        // ,
-        // {
-        //   name: "Weekly",
-        //   description: "A Weekly é uma newsletter semanal curada pelos mestre do RPG do Mestre, trazendo publicações interessantes sobre o mundo do RPG ",
-        //   extra: ""
-        // }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.projects {
+  background-color: #f9f9f9;
+
+  &:before,
+  &:after {
+    background-color: #f9f9f9;
+  }
+}
+
+.project {
+  padding: 2em 0;
+}
+</style>
