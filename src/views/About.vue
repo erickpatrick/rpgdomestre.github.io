@@ -1,5 +1,5 @@
 <template>
-  <section class="about">
+  <section class="section section--primary about">
     <h4>Nossa história</h4>
     <p>O RPG do Mestre é um site sobre RPG criado em meados de 2009 por <a
       href="https://twitter.com/erickpatrick">Erick Patrick</a>, ainda no formato de blog, que trazia artigos
@@ -28,15 +28,17 @@
   </section>
 </template>
 
+<script>
+export default {
+  name: "About",
+  mounted() {
+    this.$emit("change:header", { isDefault: true });
+  }
+};
+</script>
+
 <style lang="scss" scoped>
 section {
-  background-color: #f9f9f9;
-
-  &:before,
-  &:after {
-    background-color: #f9f9f9;
-  }
-
   h4:nth-child(n + 2) {
     margin-top: 2em;
   }
