@@ -12,6 +12,9 @@ export default {
   name: "Home",
   components: {
     Projects
+  },
+  mounted() {
+    this.$emit("change:header", { isDefault: true });
   }
 };
 </script>
