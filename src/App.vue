@@ -1,13 +1,20 @@
 <template>
   <div id="app">
-    <Header :title="title" :subtitle="subtitle" />
-    <Navigation />
-    <router-view/>
+    <Header :title="title" :subtitle="subtitle" :show-subheader="showSubheader" />
+    <Navigation v-if="showNavigation" />
+    <router-view @change:header="changeHeader"/>
     <Footer />
   </div>
 </template>
 
 <script>
+const defaultHeader = {
+  title: "RPG do Mestre",
+  subtitle: "Onde o mestre cria, reinventa, modifica e publica RPG.",
+  showNavigation: true,
+  showSubheader: false
+};
+
 export default {
   name: "RPGdM",
   components: {
@@ -18,13 +25,30 @@ export default {
   data() {
     return {
       title: "RPG do Mestre",
-      subtitle: "Onde o mestre cria, reinventa, modifica e publica RPG."
+      subtitle: "Onde o mestre cria, reinventa, modifica e publica RPG.",
+      showNavigation: true,
+      showSubheader: false
     };
+  },
+  methods: {
+    changeHeader(payload) {
+      "isDefault" in payload
+        ? this._setHeaderProperties(defaultHeader)
+        : this._setHeaderProperties(payload);
+    },
+    _setHeaderProperties(data) {
+      Object.keys(data).forEach(key => (this[key] = data[key]));
+    }
   }
 };
 </script>
 
 <style lang="scss">
+*,
+* + * {
+  box-sizing: border-box;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -54,13 +78,14 @@ h4,
 h5,
 h6 {
   margin: 0 0 1rem 0;
+  line-height: 1.15;
 }
 
 h1 {
   font-size: 2.5em;
 
   @media screen and (min-width: 60em) {
-    font-size: 3.5em;
+    font-size: 4.25em;
   }
 }
 
@@ -68,7 +93,7 @@ h2 {
   font-size: 2.25em;
 
   @media screen and (min-width: 60em) {
-    font-size: 3.25em;
+    font-size: 3.75em;
   }
 }
 
@@ -76,7 +101,7 @@ h3 {
   font-size: 2em;
 
   @media screen and (min-width: 60em) {
-    font-size: 3em;
+    font-size: 3.25em;
   }
 }
 
@@ -92,7 +117,7 @@ h5 {
   font-size: 1.5em;
 
   @media screen and (min-width: 60em) {
-    font-size: 2.5em;
+    font-size: 2.25em;
   }
 }
 
@@ -100,7 +125,7 @@ h6 {
   font-size: 1.25em;
 
   @media screen and (min-width: 60em) {
-    font-size: 2.25em;
+    font-size: 1.75em;
   }
 }
 
@@ -125,7 +150,7 @@ a {
   }
 }
 
-section {
+.section {
   padding: 3em 0;
   position: relative;
 
@@ -144,6 +169,48 @@ section {
 
   &:after {
     left: 100%;
+  }
+
+  &--primary {
+    background-color: #f9f9f9;
+
+    &:before,
+    &:after {
+      background-color: #f9f9f9;
+    }
+  }
+
+  &--secondary {
+    margin: 0;
+
+    @media screen and (min-width: 60em) {
+      margin: 0 -2.5%;
+    }
+
+    @media screen and (min-width: 75em) {
+      margin: 0 -7.5%;
+    }
+
+    @media screen and (min-width: 90em) {
+      margin: 0 -12.5%;
+    }
+  }
+
+  &--columns {
+    overflow: hidden;
+
+    section {
+      margin-bottom: 2.5em;
+
+      @media screen and (min-width: 60em) {
+        width: 30%;
+        float: left;
+
+        &:nth-child(2) {
+          margin: 0 5%;
+        }
+      }
+    }
   }
 }
 </style>
