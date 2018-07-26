@@ -18,15 +18,13 @@ export default {
         {
           name: "Alter Ego",
           description:
-            "É o nosso projeto mais recente. Ele é dividido em três partes: Sistema, Cenário e Ficção. Sim, todos tem o mesmo nome, porém, " +
-            '"sobrenomes" diferentes.',
+            "É o nosso projeto mais recente. Ele é dividido em três partes: Sistema, Terra 2037 e Dackers.",
           link: "/alter-ego"
         },
         {
           name: "Weekly",
           description:
-            "A Weekly é um projeto de curadoria de artigos, citações, imagens e links interessantes sobre o mundo do RPG para ajudar jogadores " +
-            "e mestres. (em breve)",
+            "A Weekly é a curadoria de artigos, citações, imagens e links interessantes sobre o mundo do RPG para ajudar jogadores e mestres.",
           link: "/weekly"
         }
       ]
