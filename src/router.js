@@ -21,6 +21,11 @@ export default new Router({
       component: () => import("./views/projects/AlterEgo.vue")
     },
     {
+      path: "/alter-ego/sistema",
+      name: "AlterEgoSistema",
+      component: () => import("./views/projects/AlterEgo/Sistema.vue")
+    },
+    {
       path: "/weekly",
       name: "Weekly",
       component: () => import("./views/projects/Weekly.vue")
