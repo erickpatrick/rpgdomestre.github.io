@@ -132,5 +132,10 @@ export default {
       margin-bottom: 6em;
     }
   }
+
+  a {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
 }
 </style>
