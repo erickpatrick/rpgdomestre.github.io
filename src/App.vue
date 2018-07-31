@@ -81,6 +81,10 @@ h6 {
   line-height: 1.15;
 }
 
+li {
+  margin: 0 0 1rem 0;
+}
+
 h1 {
   font-size: 2.5em;
 
@@ -130,13 +134,31 @@ h6 {
 }
 
 p,
-a {
+a,
+ul {
   font-size: 1rem;
   line-height: 1.5rem;
 
   @media screen and (min-width: 60em) {
     font-size: 1.5rem;
     line-height: 2.5rem;
+  }
+}
+
+blockquote {
+  margin: 2em 0;
+  border-left: 10px solid #e9e9e9;
+  padding: 1em;
+  background-color: #f9f9f9;
+  font-style: italic;
+
+  @media screen and (min-width: 50em) {
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+  
+  em {
+    font-style: normal;
   }
 }
 
