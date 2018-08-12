@@ -15,7 +15,7 @@ mUseMTitleForPageTitle: true
 
 @section('mContent')
 
-    @if($weekly->count())
+    @if(isset($weekly) && $weekly->count())
         <ul>
         @foreach ($weekly as $post)
             <li><a href="{{ $post->getUrl() }}">{{ $post->mSubtitle }}</a></li>
