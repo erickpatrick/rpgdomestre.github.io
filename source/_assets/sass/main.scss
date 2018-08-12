@@ -1,0 +1,222 @@
+*,
+* + * {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-size: 20px;
+
+  @media screen and (min-width: 41.3em) {
+    font-size: 30px;
+  }
+}
+
+h1 { font-size: 3.5rem; }
+h2 { font-size: 3rem; }
+h3 { font-size: 2.5rem; }
+h4 { font-size: 2rem; }
+h5 { font-size: 1.5rem; }
+h6 { font-size: 1rem; }
+
+body {
+  margin: 0;
+  font: normal normal normal 1rem/1.5 "Palatino Linotype", Palatino, Palladio,
+    "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style",
+    "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond",
+    "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook",
+    "Century Schoolbook L", Georgia, serif;
+}
+
+a { color: #1e3760; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.5rem 0;
+  line-height: 1.15;
+}
+
+blockquote {
+  margin: 1rem 0;
+  border-left: 10px solid #d3d3d3;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  font-style: italic;
+
+  @media screen and (min-width: 41.3em) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  em {
+    font-style: normal;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+#app {
+  margin: 0 5% 3rem;
+  width: 90%;
+
+  @media screen and (min-width: 41.3em) {
+    margin: 0 auto 3rem;
+    max-width: 50rem;
+  }
+}
+
+.header {
+  margin: 2rem 0 0;
+
+  @media screen and (min-width: 60em) {
+    margin-top: 4rem;
+  }
+
+  .section--sub-heading,
+  .section--sub-heading a {
+    padding: 0;
+  }
+
+  .header__title {
+    color: #1e3760;
+  }
+}
+
+.section {
+  padding: 1rem 0;
+  position: relative;
+
+  &:before,
+  &:after {
+    content: " ";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  &:before {
+    right: 100%;
+  }
+
+  &:after {
+    left: 100%;
+  }
+
+  &--primary {
+    margin-bottom: 3rem;
+    background-color: #f9f9f9;
+
+    &:before,
+    &:after {
+      background-color: #f9f9f9;
+    }
+  }
+
+  &--secondary {
+    margin: 0;
+
+    @media screen and (min-width: 75em) {
+      margin: 0 -2.5%;
+    }
+
+    @media screen and (min-width: 90em) {
+      margin: 0 -7.5%;
+    }
+  }
+
+  &--columns {
+    overflow: hidden;
+
+    section {
+      margin-bottom: 3rem;
+
+      @media screen and (min-width: 60em) {
+        width: 30%;
+        float: left;
+
+        &:nth-child(2) {
+          margin: 0 5%;
+        }
+      }
+    }
+  }
+
+  .section__title:nth-child(n + 2),
+  & > h4:nth-child(n + 2) {
+    margin-top: 2rem;
+  }
+}
+
+.navigation {
+  margin-bottom: 2rem;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+
+  .navigation__link {
+    display: inline-block;
+    padding: 1rem;
+  }
+}
+
+.project {
+  padding: 2rem 0;
+}
+
+.alter-ego {
+  padding-top: 3rem;
+
+  h1, h2, h3, h5, h6 {
+    padding-top: 1rem;
+  }
+
+  h4 {
+    padding-top: 4rem;
+  }
+
+  h4:first-of-type {
+    padding-top: 0;
+  }
+}
+
+.table-of-contents {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+
+  @media screen and (min-width: 52.2em) {
+    margin-left: 1.5rem;
+    float: right;
+    max-width: 13.5rem;
+  }
+
+  h5, h6 {
+    padding-top: 0;
+  }
+
+  > ul {
+    margin: 0 0 2rem 0;
+    padding-left: 1rem;
+    list-style-type: none;
+    
+    > li {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+.footer {
+  text-align: center;
+}
