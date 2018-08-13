@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'http://rpgdm.test/',
+    'baseUrl' => 'http://localhost:3000/',
     'production' => false,
     'collections' => [
         'weekly' => [
