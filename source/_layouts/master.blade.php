@@ -17,5 +17,6 @@
 
             @footer
         </div>
+        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </body>
 </html>
