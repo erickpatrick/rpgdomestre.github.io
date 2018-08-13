@@ -1,11 +1,4 @@
-[Settings]
-  ID = "optimistic-chandrasekhar-bedc44"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-
-  for = "/service-worker.js"
-    Cache-Control = "max-age=0"
+[build]
+  command = "npm run production && ./vendor/bin/jigsaw build production"
+  publish = "build_production"
+  environment = { PHP_VERSION = "7.2" }
