@@ -198,7 +198,7 @@ blockquote {
   max-width: 41rem;
 
   @media screen and (min-width: 41.3em) {
-    max-width: 27rem;
+    max-width: 35rem;
   }
 
   .section--primary {
@@ -208,8 +208,8 @@ blockquote {
     font-style: oblique;
   }
 
-  h5:nth-child(2n+2) {
-    margin-top: 3rem;
+  h4 {
+    margin-top: 5rem;
   }
 }
 
