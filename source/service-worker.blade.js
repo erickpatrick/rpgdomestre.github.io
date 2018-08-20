@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rpgdomestre-cached-version-4';
+const CACHE_NAME = 'rpgdomestre-cached-version-5';
 const urlsToCache = [
   '/',
   '/index.html',
@@ -27,7 +27,7 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('activate', function(event) {
-  var cacheWhitelist = ['rpgdomestre-cached-version-4'];
+  var cacheWhitelist = ['rpgdomestre-cached-version-5'];
 
   event.waitUntil(
     caches.keys().then(function(keyList) {
