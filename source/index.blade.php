@@ -8,8 +8,9 @@
 @section('navigation')
     @navigation([
         'items' => [
-            ['title' => 'Home', 'url' => $page->urlTo(), 'active' => true],
-            ['title' => 'Sobre', 'url' => $page->urlTo('sobre'), 'active' => false]
+            ['title' => 'Home', 'url' => $page->urlTo(), 'active' => false],
+            ['title' => 'Weekly', 'url' => $page->urlTo('weekly'), 'active' => false],
+            ['title' => 'Sobre', 'url' => $page->urlTo('sobre'), 'active' => false],
         ]
     ])
 @endsection

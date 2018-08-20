@@ -17,6 +17,11 @@
                     'active' => false
                 ],
                 [
+                'title' => 'Weekly',
+                'url' => $page->urlTo('weekly'),
+                'active' => $page->mActive
+                ],
+                [
                     'title' => 'Sobre', 
                     'url' => $page->urlTo('sobre'), 
                     'active' => $page->mActive
