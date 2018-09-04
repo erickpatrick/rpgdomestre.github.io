@@ -135,7 +135,69 @@ Se a Pilha de dados for __nula__ (ou seja, 0 dados) ou ficar negativa até o mí
 <div id="combate"></div>
 ##### Combate
 
-Conteúdo em breve
+###### Iniciativa
+
+> Iniciativa (IN) = Mobilidade (MB) + Vontade (VN)
+
+Personagens agem do maior para o menor valor de Iniciativa. Jogadores podem gastar __1 ponto__ do valor de iniciativa por turno, até uma quantidade máximo igual ao seu nível durante todo enfrentamento/combate, para diminuir a dificuldade de testes, até o mínimo de fácil. Contudo, se seu valor de iniciativa diminui a ponto de ficar menor que a de outro personagem (de jogador ou *NPC*), sua ordem nos turnos seguintes será após esse outro personagem.
+
+Essa mudança de ordem se dá pelo personagem focar tanto e investir tanto em uma determinada ação, que seu corpo e mente cansam e passam a responder mais lentamente por um determinado tempo. A cada __6 rodadas__, o personagem pode recuperar um ponto de iniciativa gasto, podendo fazê-lo voltar a agir na frente de outro personagem se seu valor de iniciativa superar o do outro. Afinal, embora ainda esteja em ação, suas forças não estão focadas em uma única coisa/alvo.
+
+
+###### Ataque
+
+> Ataque = Destreza (DX) + Modificador de Dom (Mod) __*ou*__ Dom
+
+###### Esquiva 
+
+> Esquiva = Mobilidade (MB) + Modificador de Dom (Mod) __*ou*__ Dom
+
+O jogador consegue esquivar-se totalmente se conseguir uma diferença de dois ou mais sucessos contra o *Ataque* ou *Ação Específica*. Se conseguir somente um sucesso, acontece __meio efeito__.
+
+###### Proteção
+
+Subtrai o dano do ataque e se dá da seguinte forma
+
+###### <small>Aparar</small>
+*Dom (se houver) > Cobertura > Espada/Manopla > Armadura > Proteção natural (caso a espada;arma usada seja destruída e se houver)*
+
+###### <small>Básica</small>
+*Dom (se houver) > Cobertura > Armadura/Escudo > Proteção natural (se houver)*
+
+###### Dano
+
+###### <small>Corpo-a-corpo</small>
+
+> Dano corpo-a-corpo = Força (FR) + Dano da Arma + Dom
+
+###### <small>À distância</small>
+
+> Dano corpo-a-corpo = Destreza (DX) + Dano da Arma + Dom
+
+###### Sequência de Combate
+
+1. Atacante seleciona em quem vai atacar e *rola Ataque*. 
+2. O defensor decide se *Esquiva* (se tiver como), se *Apara* ou outra coisa.
+3. Faz-se as rolagens necessárias (*Ataque* ou *Ataque vs Esquiva*).
+4. Se o atacante acertar, calcula-se o *dano máximo possível* e __*subtrai-se a proteção*__.
+
+###### Causando dano 
+
+Cada ponto de dano *excedente* à proteção retira-se de *Saúde* (SD). Com 0 de SD, recebe __-1__ em Força (FR), Destreza (DX) e Mobilidade (MB), com __*-SD/2*__ (metade do valor máximo de SD em valores negativos) recebe __-2__ em FR, DX e MB __e__ -1 em Constituição (CN), Comportamento (CM) e Vontade (VN). Chegar a __*-SD*__ (valor máximo de SD em valores negativos), cai desacordado e se em até *1d turnos* (rolagem secreta do mestre) não for estabilizado, morre. Para estabilizar, basta fazer o personagem ficar com __SD 0__.
+
+###### Múltiplos Ataques
+
+Dividem a *Pilha de Dados* na quantidade de ataques que se quer fazer e, para cada ataque além do primeiro, a dificuldade aumenta em _um nível_.
+
+> John quer que seu personagem faça três ataques. Sua _Pilha de Dados_ é 6, para um dificuldade _Difícil_. Assim, ele poderá atacar _três vezes_, porém com apenas _2 dados_ em cada ataque. O primeiro ataque será com dificuldade _Difícil_ (sucesso com resultados 4, 5 e 6); o segundo ataque será com dificuldade _Extrema_ (sucesso com resultados 5 e 6); e o terceiro ataque será com dificuldade _Hercúlea_ (sucesso com resultados 6). Se suas jogadas resultaram, respectivamente, em 4 e 5; 3 e 5; 5 e 5, ele apenas acertará os dois primeiros ataques.
+
+###### Múltiplos Alvos
+
+Quando se pode fazer múltiplos ataques, é possível escolher múltiplos alvos para esses ataques se estiverem dentro do seu raio de ação. Para cada troca de alvo, porém, aumenta-se a dificuldade do próximo ataque em um nível.
+
+> Dessa vez, John quer que seu personagem faça dois ataques. Sua _Pilha de Dados_ é 6, para um dificuldade _Difícil_. O primeiro ataque será em um NPC e terá dificuldade _Difícil_ (sucesso com resultados 4, 5 e 6); o segundo ataque será em um NPC diferente e terá dificuldade _Hercúlea_ (sucesso com resultados 6). Se suas jogadas resultaram, respectivamente, em 4, 5 e 3; e 5, 5 e 5, ele apenas acertará o primeiro ataque.
+
+A dificuldade passou de _Difícil_ direto para _Hercúlea_ pois: 1) *Múltiplos ataques* aumentam a dificuldade para cada ataque depois do primeiro, 2) Mudar de alvo aumenta ainda mais a dificuldade.<br/>Se John decide continuar.
 
 <div id="aptidoes-e-inepcias"></div>
 ##### Aptidões e Inépcias
