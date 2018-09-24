@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rpgdomestre-cached-version-6.0.0';
+const CACHE_NAME = 'rpgdomestre-cached-version-2018-09-17';
 const urlsToCache = [
   '/',
   '/index.html',
