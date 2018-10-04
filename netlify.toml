@@ -1,4 +1,5 @@
 [build]
   command = "npm run production && ./vendor/bin/jigsaw build production"
   publish = "build_production"
-  environment = { PHP_VERSION = "7.2" }
+  environment = { PHP_VERSION = "7.2", AWS_LAMBDA_JS_RUNTIME = "nodejs8.10" }
+  functions = "./api"
