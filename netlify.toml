@@ -14,4 +14,4 @@
     Strict-Transport-Security = "max-age=31536000; includeSubDomains"
     Upgrade-Insecure-Requests = "1"
     Referrer-Policy = "no-referrer-when-downgrade"
-    Feature-Policy = "geolocation 'none'; midi 'none'; notifications 'self'; push 'self'; sync-xhr 'self'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'self'; vibrate 'self'; fullscreen 'self'; payment 'self';"
+    Feature-Policy = "geolocation 'none'; midi 'none'; notifications 'self'; push 'self'; sync-xhr 'self'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'self'; vibrate 'self'; fullscreen 'self'; payment 'self'"
