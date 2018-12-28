@@ -16,3 +16,5 @@ mix.js('source/_assets/js/main.js', 'js')
   .options({
     processCssUrls: false,
   }).version()
+
+mix.copy('source/_panel/*', '_panel')
