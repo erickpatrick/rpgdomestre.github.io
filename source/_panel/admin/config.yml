@@ -21,7 +21,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
     meta:
       - { label: 'Weekly Edition Title', name: 'mSubtitle', widget: 'text', required: true, default: 'Edição' }
-      - { label: 'Published Date', name: 'date', widget: 'text', format: 'YYYY-MM-DD' required: true, default: '' }
+      - { label: 'Published Date', name: 'date', widget: 'text', format: 'YYYY-MM-DD', required: true, default: '' }
       - { label: 'Extends Layout', name: 'extends', widget: 'text', required: true, default: '_layouts.markdown' }
       - { label: 'Layout Section to Update', name: 'section', widget: 'text', required: true, default: 'mContent' }
       - { label: 'Collection Base Title', name: 'mTitle', widget: 'text', required: true, default: 'Weekly' }
