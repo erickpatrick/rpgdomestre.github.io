@@ -12,15 +12,16 @@ collections:
     label_singular: "Weekly"
     description: >
       Our Weekly section that will be generated
-    folder: "_weekly"
+    folder: "source/_weekly"
     slug: "{{slug}}"
     extension: "blade.md"
     format: "yaml-frontmatter"
     create: true
-    identifier_field: "mSubtitle"
+    identifier_field: "number"
     fields:
+      - { label: "Weekly Edition Number", name: "number", widget: "string", required: true, default: "" }
       - { label: "Weekly Edition Title", name: "mSubtitle", widget: "string", required: true, default: "Edição" }
-      - { label: "Published Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", required: true, default: '' }
+      - { label: "Published Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", dateFormat: "YYYY-MM-DD", required: true, default: '' }
       - { label: "Body", name: "body", widget: "markdown", hint: "Main content goes here." }
     meta:
       - { name: "extends", widget: "string", required: true, default: "_layouts.markdown" }
