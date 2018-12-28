@@ -20,10 +20,9 @@ collections:
     identifier_field: "number"
     fields:
       - { label: "Weekly Edition Number", name: "number", widget: "string", required: true, default: "" }
-      - { label: "Weekly Edition Title", name: "mSubtitle", widget: "string", required: true, default: "Edição" }
-      - { label: "Published Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", dateFormat: "YYYY-MM-DD", required: true, default: '' }
+      - { label: "Weekly Edition Title", name: "mSubtitle", widget: "string", required: true, default: "Edição " }
+      - { label: "Published Date", name: "date", widget: "date", format: "YYYY-MM-DD", dateFormat: "YYYY-MM-DD", required: true, default: "" }
       - { label: "Body", name: "body", widget: "markdown", hint: "Main content goes here." }
-    meta:
       - { name: "extends", widget: "string", required: true, default: "_layouts.markdown" }
       - { name: "section", widget: "string", required: true, default: "mContent" }
       - { name: "mTitle", widget: "string", required: true, default: "Weekly" }
