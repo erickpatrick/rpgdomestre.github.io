@@ -5,6 +5,9 @@
   functions = "./api"
 
 [[headers]]
+  for = "/assets/_panel/*"
+    [headers.values]
+      Content-Security-Policy = "default-src 'none'; script-src 'self' 'unsafe-eval' identity.netlify.com unpkg.com nonce-yeahItsAllowed; connect-src 'self' identity.netlify.com unpkg.com; img-src 'self' 'unsafe-eval' identity.netlify.com unpkg.com nonce-yeahItsAllowed; style-src 'self' 'unsafe-eval' identity.netlify.com unpkg.com;"
   for = "/*"
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
