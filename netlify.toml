@@ -10,7 +10,7 @@
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'none'; script-src 'self' 'unsafe-eval' identity.netlify.com unpkg.com nonce-yeahItsAllowed; connect-src 'self' identity.netlify.com unpkg.com; img-src 'self' 'unsafe-eval' identity.netlify.com unpkg.com nonce-yeahItsAllowed; style-src 'self' 'unsafe-eval' identity.netlify.com unpkg.com;"
+    Content-Security-Policy = "default-src 'none'; script-src 'self' 'unsafe-eval' 'unsafe-inline' identity.netlify.com unpkg.com nonce-yeahItsAllowed; connect-src 'self' identity.netlify.com unpkg.com; img-src 'self' 'unsafe-eval' 'unsafe-inline' identity.netlify.com unpkg.com nonce-yeahItsAllowed; style-src 'self' 'unsafe-eval' 'unsafe-inline' identity.netlify.com unpkg.com;"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains"
     Upgrade-Insecure-Requests = "1"
     Referrer-Policy = "no-referrer-when-downgrade"
