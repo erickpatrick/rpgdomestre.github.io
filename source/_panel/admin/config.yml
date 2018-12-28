@@ -7,28 +7,28 @@ media_folder: "source/assets/images/uploads"
 public_folder: "assets/images/uploads"
 
 collections:
-  - name: 'weekly'
-    label: 'Weekly'
-    label_singular: 'Weekly'
+  - name: "weekly"
+    label: "Weekly"
+    label_singular: "Weekly"
     description: >
       Our Weekly section that will be generated
-    folder: '_weekly'
-    slug: '{{slug}}'
-    extension: 'blade.md'
-    format: 'yaml-frontmatter'
+    folder: "_weekly"
+    slug: "{{slug}}"
+    extension: "blade.md"
+    format: "yaml-frontmatter"
     create: true
-    identifier_field: mSubtitle
+    identifier_field: "mSubtitle"
     fields:
-      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
+      - { label: "Weekly Edition Title", name: "mSubtitle", widget: "string", required: true, default: "Edição" }
+      - { label: "Published Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", required: true, default: '' }
+      - { label: "Body", name: "body", widget: "markdown", hint: "Main content goes here." }
     meta:
-      - { label: 'Weekly Edition Title', name: 'mSubtitle', widget: 'string', required: true, default: 'Edição' }
-      - { label: 'Published Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', required: true, default: '' }
-      - { label: 'Extends Layout', name: 'extends', widget: 'string', required: true, default: '_layouts.markdown' }
-      - { label: 'Layout Section to Update', name: 'section', widget: 'string', required: true, default: 'mContent' }
-      - { label: 'Collection Base Title', name: 'mTitle', widget: 'string', required: true, default: 'Weekly' }
-      - { label: 'Is it Active?', name: 'mActive', widget: 'boolean', required: true, default: true }
-      - { label: 'Is Subheader Shown?', name: 'mSubheader', widget: 'boolean', required: true, default: true }
-      - { label: 'Is Navigation Shown?', name: 'mNavigation', widget: 'boolean', required: true, default: true }
-      - { label: 'Is Layout Section Primary?', name: 'mSectionPrimary', widget: 'boolean', required: true, default: false }
-      - { label: 'Does Use Collection Title for Page Title?', name: 'mUseMTitleForPageTitle', widget: 'boolean', required: true, default: true }
-      - { label: 'DOM Class to apply', name: 'mContentClasses', widget: 'string', required: true, default: 'weekly' }
+      - { name: "extends", widget: "string", required: true, default: "_layouts.markdown" }
+      - { name: "section", widget: "string", required: true, default: "mContent" }
+      - { name: "mTitle", widget: "string", required: true, default: "Weekly" }
+      - { name: "mActive", widget: "boolean", required: true, default: true }
+      - { name: "mSubheader", widget: "boolean", required: true, default: true }
+      - { name: "mNavigation", widget: "boolean", required: true, default: true }
+      - { name: "mSectionPrimary", widget: "boolean", required: true, default: false }
+      - { name: "mUseMTitleForPageTitle", widget: "boolean", required: true, default: true }
+      - { name: "mContentClasses", widget: "string", required: true, default: "weekly" }
