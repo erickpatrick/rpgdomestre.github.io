@@ -17,4 +17,4 @@ mix.js('source/_assets/js/main.js', 'js')
     processCssUrls: false,
   }).version()
 
-mix.copy('source/_panel/*', '_panel')
+mix.copyDirectory('source/_panel', 'source/assets/_panel')
