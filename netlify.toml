@@ -10,7 +10,7 @@
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';"
+    Content-Security-Policy = "default-src 'none'; script-src 'self' identity.netlify.com unpkg.com; connect-src 'self'; img-src 'self'; style-src 'self';"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains"
     Upgrade-Insecure-Requests = "1"
     Referrer-Policy = "no-referrer-when-downgrade"
