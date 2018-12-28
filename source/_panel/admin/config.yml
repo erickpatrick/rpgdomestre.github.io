@@ -18,6 +18,7 @@ collections:
     format: 'yaml-frontmatter'
     create: true
     fields:
+      - { label: 'Title', name: 'title', widget: 'markdown', hint: 'Title?.' }
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
     meta:
       - { label: 'Weekly Edition Title', name: 'mSubtitle', widget: 'text', required: true, default: 'Edição' }
