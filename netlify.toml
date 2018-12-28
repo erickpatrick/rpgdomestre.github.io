@@ -10,20 +10,8 @@
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'none'; script-src 'self' identity.netlify.com unpkg.com nonce-yeahItsAllowed; connect-src 'self' identity.netlify.com unpkg.com; img-src 'self' identity.netlify.com unpkg.com nonce-yeahItsAllowed; style-src 'self' identity.netlify.com unpkg.com;"
+    Content-Security-Policy = "default-src 'none'; script-src 'self' 'unsafe-eval' identity.netlify.com unpkg.com nonce-yeahItsAllowed; connect-src 'self' identity.netlify.com unpkg.com; img-src 'self' 'unsafe-eval' identity.netlify.com unpkg.com nonce-yeahItsAllowed; style-src 'self' 'unsafe-eval' identity.netlify.com unpkg.com;"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains"
     Upgrade-Insecure-Requests = "1"
     Referrer-Policy = "no-referrer-when-downgrade"
     Feature-Policy = "geolocation 'none'; midi 'none'; notifications 'self'; push 'self'; sync-xhr 'self'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'self'; vibrate 'self'; fullscreen 'self'; payment 'self'"
-
-[[headers]]
-  for = "/assets/_panel/*"
-  [headers.values]
-    X-Frame-Options = "SAMEORIGIN"
-    X-XSS-Protection = "1; mode=block"
-    X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'none'; script-src 'self' 'unsafe-eval' identity.netlify.com unpkg.com nonce-yeahItsAllowed; connect-src 'self' identity.netlify.com unpkg.com; img-src 'self' 'unsafe-eval' identity.netlify.com unpkg.com nonce-yeahItsAllowed; style-src 'self' 'unsafe-eval' identity.netlify.com unpkg.com;"
-    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
-        Upgrade-Insecure-Requests = "1"
-        Referrer-Policy = "no-referrer-when-downgrade"
-        Feature-Policy = "geolocation 'none'; midi 'none'; notifications 'self'; push 'self'; sync-xhr 'self'; microphone 'none'; camera 'none'; magnetometer 'none'; gyroscope 'none'; speaker 'self'; vibrate 'self'; fullscreen 'self'; payment 'self'"
