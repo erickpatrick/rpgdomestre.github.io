@@ -1,5 +1,5 @@
 backend:
-  name: rpg-do-mestre-git-gateway
+  name: git-gateway
 display_url: https://www.rpgdomestre.com
 
 publish_mode: editorial_workflow
