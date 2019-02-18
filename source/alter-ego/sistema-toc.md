@@ -14,6 +14,4 @@
 ###### Listas
 - [Situações x Testes](#situacoes-x-testes)
 - [Armas e proteções](#armas-e-protecoes)
-- [Aptidões](#aptidoes)
-- [Inépcias](#inepcias)
 - [Extras](#extras)
