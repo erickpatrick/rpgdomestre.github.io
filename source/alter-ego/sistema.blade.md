@@ -238,16 +238,6 @@ Conteúdo em breve
 
 Conteúdo em breve
 
-<div id="aptidoes"></div>
-##### Aptidões
-
-Conteúdo em breve
-
-<div id="inepcias"></div>
-##### Inépcias
-
-Conteúdo em breve
-
 <div id="extras"></div>
 ##### Extras
 
