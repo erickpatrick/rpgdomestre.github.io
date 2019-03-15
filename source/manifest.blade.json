@@ -1,0 +1,17 @@
+{
+  "dir": "ltr",
+  "lang": "pt-br",
+  "name": "RPG do Mestre | Onde o mestre cria, reinventa e publica RPG",
+  "scope": "/",
+  "display": "fullscreen",
+  "start_url": "https://www.rpgdomestre.com/",
+  "short_name": "RPG do Mestre",
+  "theme_color": "transparent",
+  "description": "RPG do Mestre is a place for Tabletop Roleplaying resources: news, articles, services and books.",
+  "orientation": "any",
+  "background_color": "transparent",
+  "related_applications": "",
+  "prefer_related_applications": "false",
+  "generated": "true",
+  "icons": []
+}
