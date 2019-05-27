@@ -202,7 +202,23 @@ A dificuldade passou de _Difícil_ direto para _Hercúlea_ pois: 1) *Múltiplos 
 <div id="aptidoes-e-inepcias"></div>
 ##### Aptidões e Inépcias
 
-Conteúdo em breve
+Aptidões e Inépcias são, respectivamente, aquilo que o personagem sabe fazer de melhor e de pior. Toda vez que um personagem encontra-se em uma situação que ele sabe que é bom, ele terá bônus nas rolagens de dados. Contudo, pode ser que ele se encontre em momento de dificuldade, seja por inabilidade ou por incompetência. Nesses momentos, os personagens terão um redutor nas rolagens de dados.
+
+Os momentos que dão aquele gás extra para o personagem são chamados de Aptidão e propiciam +1d nas rolagens, quando aquelas situações estiverem acontecendo. Para cada atributo com +3, escolhe-se uma aptidão relacionada aquele atributo. Para cada +2 a partir de +3 (ou seja, em +5, +7, +9, etc), obtém-se mais uma aptidão para aquele atributo.
+
+Vale salientar que não é interessante permitir que jogadores escolham Aptidões que sejam usadas a todo momento. Isso geraria desequilíbrio desnecessário. Contudo, uma Aptidão que quase nunca se usa também não é interessante, uma vez que ficará subutilizada. 
+
+> O personagem de John tem dois atributos +3:, Força e Destreza. Para Força, ele decide que sempre que precisa fazer esforço para erguer algo muito pesado mesmo (como erguer um carro, uma pedra muito grande, levantar um cavalo, etc) ele terá uma vantagem de +1d uma vez que ele aprendeu durante treinamentos de _power lifting_.<br/><br/>Para Destreza, John decide que sempre que seu personagem tiver de equilibrar coisas com suas mãos (copos, talheres e pratos em uma bandeja, bolas de malabarismo, etc) ele terá sua vantagem de +1d uma vez que já trabalhou de garçom.
+
+Os momentos que dificultam a vida do personagem são chamados de Inépcias e reduzem em -1d as rolagens naquela situação. Não é obrigado que sua mesa tenha o conceito de Inépcia, porém ela é recomendada uma vez que gera possibilidades de ganchos narrativos.
+
+Para cada atributo em -3, o jogador, junto do mestre, escolhe uma inépcia relacionada aquele atributo, nada muito comum (ou ficará com penalidade extra além do valor negativo do atributo) nem muito raro (fazendo com que a inépcia não entre em ação). 
+
+> O personagem de John, embora bem forte e ágil, não sabe lidar com pessoas. Ele se sente um peixe fora d'água. Não sabe a coisa certa a se dizer para as pessoas e por aí vai. Por isso, John decidiu que ele teria -3 em Comportamento. Com isso, o mestre disse que John deveria escolher uma inépcia. Por seu personagem não saber o que dizer para as pessoas, John decidiu que toda vez que fosse confrontado (dizendo a verdade ou não), seu personagem teria -1d para mostrar sua falta de confiança ao lidar com pessoas. 
+
+> __Observação__: Não é possível ter mais que uma Inépcia por atributo nem se obtem Inépcias por modificadores de atributo temporários (magia causando atributo ficar negativo, por exemplo).
+
+No geral, Aptidões e Inépcias são ganchos que mestres poderão utilizar para inserir possibilidades de interpretação para os jogadores durante aventuras e campanhas. Dessa forma, facilita o trabalho dos mestres e permite que mais e mais os jogadores possam participar das sessões.
 
 <div id="dons"></div>
 ##### Dons
@@ -219,16 +235,6 @@ Conteúdo em breve
 
 <div id="armas-e-protecoes"></div>
 ##### Armas e proteções
-
-Conteúdo em breve
-
-<div id="aptidoes"></div>
-##### Aptidões
-
-Conteúdo em breve
-
-<div id="inepcias"></div>
-##### Inépcias
 
 Conteúdo em breve
 
