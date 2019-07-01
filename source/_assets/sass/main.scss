@@ -206,13 +206,30 @@ blockquote {
     margin-bottom: 2rem;
     font-size: 1.25rem;
     font-style: oblique;
+
+    li {
+      float: left;
+      padding-right: 35px;
+    }
   }
 
-  h4 {
+  h3, h4 {
     margin-top: 5rem;
   }
+
   img {
     width: 100%;
+  }
+}
+
+.weekly-list {
+  list-style-type: none;
+  overflow: hidden;
+
+  li {
+    float: left;
+    padding: 0 20px 20px 0;
+    width: 200px;
   }
 }
 
