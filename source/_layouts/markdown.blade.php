@@ -1,5 +1,7 @@
 @extends('_layouts.master')
 
+@section('description', substr($page->description,0,149).'...')
+
 @section('header')
     @header(['page' => $page, 'subheader' => $page->mSubheader])
         @slot('title', $page->mUseMTitleForPageTitle ? $page->mTitle : $page->site->title)
