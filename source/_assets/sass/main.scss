@@ -137,19 +137,26 @@ blockquote {
   }
 
   &--columns {
-    overflow: hidden;
+    display: grid;
+    grid-gap: 40px;
+    grid-auto-columns: minmax(270px, auto);
+
+    @media screen and (min-width: 30em) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .alter-ego & {
+      @media screen and (min-width: 48em) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .section__title {
+      grid-column: 1 / -1
+    }
 
     section {
-      margin-bottom: 3rem;
-
-      @media screen and (min-width: 60em) {
-        width: 30%;
-        float: left;
-
-        &:nth-child(2) {
-          margin: 0 5%;
-        }
-      }
+      margin-bottom: 2rem;
     }
   }
 
