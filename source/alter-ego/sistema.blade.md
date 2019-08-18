@@ -10,6 +10,8 @@ mSectionPrimary: false
 mUseMTitleForPageTitle: true
 mContentClasses: alter-ego
 mToc: alter-ego.sistema-toc
+description: >-
+    Focando no minimalismo de regras, o Alter Ego é um sistema bem fluido que facilita a criação do mestre e as ações dos jogadores. Esse sistema evolui com o feedback da comunidade. Caso tenha queira contribuir, basta entrar em contato.
 ---
 
 <div id="introducao"></div>
