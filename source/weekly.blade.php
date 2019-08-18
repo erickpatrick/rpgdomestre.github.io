@@ -11,6 +11,8 @@ mUseMTitleForPageTitle: true
 #pagination:
   #collection: weekly
   #perPage: 5
+description: >-
+    Publicações interessantes sobre Roleplaying Games, curadas semanalmente e manualmente.
 ---
 
 @section('mContent')

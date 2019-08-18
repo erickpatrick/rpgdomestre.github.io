@@ -6,6 +6,8 @@ mTitle: Sobre
 mNavigation: true
 mSectionPrimary: true
 mUseMTitleForPageTitle: false
+description: >-
+    O RPG do Mestre é um site sobre RPG criado em meados de 2009 por [Erick Patrick], ainda no formato de blog, que trazia artigos semanalmente, com uma proposta diferente dos blogs da época: conteúdo diverso sem tratar sobre qualquer sistema em específico.
 ---
 
 #### Nossa história

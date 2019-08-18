@@ -1,5 +1,7 @@
 @extends('_layouts.master')
 
+@section('description', 'Alter Ego: Regras de RPG, Ambientação em forma de Cenário para RPG, e Ficção em forma de contos, histórias e algo mais.')
+
 @section('header')
     @header(['page' => $page, 'subheader' => true])
         @slot('title', 'Alter Ego')
