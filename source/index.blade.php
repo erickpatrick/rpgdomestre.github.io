@@ -23,6 +23,7 @@
 <div class="home">
     @sectionPrimary
         @slot('title', 'Projetos')
+        @slot('classes', 'section--columns')
         @projectListing([
             'title' => 'Alter Ego',
             'description' => 'É o nosso projeto mais recente. Ele é dividido em três partes: Sistema, Terra 2037 e Dackers.',
