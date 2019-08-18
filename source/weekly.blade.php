@@ -19,8 +19,8 @@ mUseMTitleForPageTitle: true
         <ul class="weekly-list">
         @foreach ($weekly as $post)
             <li>
-                <h3><a href="{{ $post->getUrl() }}">{{ $post->mSubtitle }}</a></h3>
-                <p>{{ $post->description ?? '' }}</p>
+                <h5><a href="{{ $post->getUrl() }}">{{ $post->mSubtitle }}</a></h5>
+                <p>{{{ $post->description ?? '' }}}</p>
             </li>
         @endforeach
         </ul>
