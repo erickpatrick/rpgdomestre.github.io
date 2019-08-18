@@ -6,10 +6,10 @@
 html,
 body {
   overflow-x: hidden;
-  font-size: 20px;
+  font-size: 18px;
 
   @media screen and (min-width: 41.3em) {
-    font-size: 30px;
+    font-size: 27px;
   }
 }
 
@@ -226,11 +226,20 @@ blockquote {
   padding-left: 20px;
   list-style-type: none;
   overflow: hidden;
+  display: grid;
+  grid-gap: 20px;
+  grid-auto-columns: minmax(270px, auto);
+
+  @media screen and (min-width: 30em) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (min-width: 60em) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
   li {
-    float: left;
     padding: 0 20px 20px 0;
-    width: 300px;
   }
 }
 
