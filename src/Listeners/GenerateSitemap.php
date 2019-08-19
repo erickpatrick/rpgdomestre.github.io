@@ -1,35 +1,42 @@
-<?php namespace App\Listeners;
+<?php
+
+namespace App\Listeners;
 
 use samdark\sitemap\Sitemap;
 use TightenCo\Jigsaw\Jigsaw;
 
 class GenerateSitemap
 {
-    /**
-     * @param Jigsaw $jigsaw
-     */
-    public function handle(Jigsaw $jigsaw): void
+    protected $exclude = [
+        '/assets/*',
+        '*/favicon.ico',
+        '*/404*'
+    ];
+
+    public function handle(Jigsaw $jigsaw)
     {
         $baseUrl = $jigsaw->getConfig('baseUrl');
+
+        if (! $baseUrl) {
+            echo("\nTo generate a sitemap.xml file, please specify a 'baseUrl' in config.php.\n\n");
+
+            return;
+        }
+
         $sitemap = new Sitemap($jigsaw->getDestinationPath() . '/sitemap.xml');
+
         collect($jigsaw->getOutputPaths())
-            ->map(function ($path) {
-                if ($path) {
-                    return str_start($path, '/');
-                }
-            })
-            ->each(function ($path) use ($baseUrl, $sitemap) {
-                if (! $this->isAsset($path)) {
-                    $sitemap->addItem($baseUrl . $path, time(), Sitemap::DAILY);
-                }
+            ->reject(function ($path) {
+                return $this->isExcluded($path);
+            })->each(function ($path) use ($baseUrl, $sitemap) {
+                $sitemap->addItem(rtrim($baseUrl, '/') . $path, time(), Sitemap::DAILY);
             });
+
         $sitemap->write();
     }
 
-    public function isAsset($path): bool
+    public function isExcluded($path)
     {
-        return collect(['/css', '/img', '/js', '/CNAME'])->contains(function ($value) use ($path) {
-            return starts_with($path, $value);
-        });
+        return str_is($this->exclude, $path);
     }
 }
