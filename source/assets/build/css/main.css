@@ -6,12 +6,12 @@
 html,
 body {
   overflow-x: hidden;
-  font-size: 20px;
+  font-size: 18px;
 }
 @media screen and (min-width: 41.3em) {
   html,
 body {
-    font-size: 30px;
+    font-size: 27px;
   }
 }
 
@@ -146,19 +146,25 @@ blockquote p:last-child {
   }
 }
 .section--columns {
-  overflow: hidden;
+  display: grid;
+  grid-gap: 40px;
+  grid-auto-columns: minmax(270px, auto);
+}
+@media screen and (min-width: 30em) {
+  .section--columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 48em) {
+  .alter-ego .section--columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.section--columns .section__title {
+  grid-column: 1/-1;
 }
 .section--columns section {
-  margin-bottom: 3rem;
-}
-@media screen and (min-width: 60em) {
-  .section--columns section {
-    width: 30%;
-    float: left;
-  }
-  .section--columns section:nth-child(2) {
-    margin: 0 5%;
-  }
+  margin-bottom: 2rem;
 }
 .section .section__title:nth-child(n+2), .section > h4:nth-child(n+2) {
   margin-top: 2rem;
@@ -180,7 +186,14 @@ blockquote p:last-child {
 }
 
 .alter-ego {
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 3rem;
+}
+@media screen and (min-width: 41.3em) {
+  .alter-ego {
+    max-width: 35rem;
+  }
 }
 .alter-ego h1, .alter-ego h2, .alter-ego h3, .alter-ego h5, .alter-ego h6 {
   padding-top: 1rem;
@@ -221,13 +234,25 @@ blockquote p:last-child {
 }
 
 .weekly-list {
+  padding-left: 20px;
   list-style-type: none;
   overflow: hidden;
+  display: grid;
+  grid-gap: 20px;
+  grid-auto-columns: minmax(270px, auto);
+}
+@media screen and (min-width: 30em) {
+  .weekly-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 60em) {
+  .weekly-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 .weekly-list li {
-  float: left;
   padding: 0 20px 20px 0;
-  width: 200px;
 }
 
 .table-of-contents {
@@ -239,7 +264,7 @@ blockquote p:last-child {
   .table-of-contents {
     margin-left: 1.5rem;
     float: right;
-    max-width: 13.5rem;
+    max-width: 10rem;
   }
 }
 .table-of-contents h5, .table-of-contents h6 {
