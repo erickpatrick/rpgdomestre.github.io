@@ -22,7 +22,7 @@ description: >-
         @foreach ($weekly as $post)
             <li>
                 <h5><a href="{{ $post->getUrl() }}">{{ $post->mSubtitle }}</a></h5>
-                <p>{{{ $post->description ?? '' }}}</p>
+                <p>{!! $post->description ?? '' !!}</p>
             </li>
         @endforeach
         </ul>
