@@ -11,7 +11,7 @@
 @endsection
 
 @section('content')
-<div class="mt-20 px-5 min-h-screen {{ $page->mContentClasses }}">
+<div class="mt-20 px-5 min-h-screen weekly">
     <div class="py-5 container mx-auto">
         <div class="w-full pb-5 md:pb-10">
             <h2 class="text-4xl md:text-6xl text-blue-900 font-semibold">{{ $page->weeklyTitle }}</h2>
