@@ -1,13 +1,6 @@
-@extends('_layouts.master')
+@extends('_layouts.markdown')
 
 @section('description', 'Alter Ego: Regras de RPG, Ambientação em forma de Cenário para RPG, e Ficção em forma de contos, histórias e algo mais.')
-
-@section('header')
-    @header(['page' => $page, 'subheader' => true])
-        @slot('title', 'Alter Ego')
-        @slot('subtitle', 'Regras. Ambientação. Ficção.')
-    @endheader
-@endsection
 
 @section('title')
 Alter Ego | {{ $page->site->title }}
