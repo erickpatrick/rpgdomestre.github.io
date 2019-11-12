@@ -3,6 +3,10 @@ a {
 }
 
 .weekly {
+    a {
+        @apply .underline;
+    }
+
     h3,
     h4,
     h5,
@@ -34,5 +38,9 @@ a {
         @apply .mb-10;
         @apply .pl-10;
         @apply .list-disc;
+    }
+
+    p {
+        @apply .mb-5;
     }
 }
