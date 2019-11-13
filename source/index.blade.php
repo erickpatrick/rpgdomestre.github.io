@@ -29,7 +29,7 @@
                     </a>
                 </div>
             </div>
-            <div class="p-5 w-full sm:w-1/2">
+            <!--<div class="p-5 w-full sm:w-1/2">
                 <div class="p-5 bg-gray-100">
                     <div class="pb-5 flex items-center text-blue-900">
                         <svg class="mr-5 w-10 h-10 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +42,7 @@
                         Ver todos os artigos
                     </a>
                 </div>
-            </div>
+            </div>-->
             <div class="p-5 w-full sm:w-1/2">
                 <div class="p-5 bg-gray-100">
                     <div class="pb-5 flex items-center text-blue-900">
@@ -57,7 +57,7 @@
                     </a>
                 </div>
             </div>
-            <div class="p-5 w-full sm:w-1/2">
+            <!--<div class="p-5 w-full sm:w-1/2">
                 <div class="p-5 bg-gray-100">
                     <div class="pb-5 flex items-center text-blue-900">
                         <svg class="mr-5 w-10 h-10 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +70,7 @@
                         Escute todos os casts
                     </a>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </div>
