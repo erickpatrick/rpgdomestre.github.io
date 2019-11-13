@@ -24,7 +24,7 @@ mSubtitle: Publicações interessantes curadas semanalmente.
             )
         @endforeach
     @else
-        Não há edição de weekly publicada até o momento
+        @include('_partials.weekly.empty')
     @endif
 
 @endsection

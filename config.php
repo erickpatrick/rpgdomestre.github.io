@@ -7,6 +7,11 @@ return [
         'weekly' => [
             'path' => '{collection}/{date|Y-W}/{filename}',
             'sort' => '-date'
+        ],
+        'articles' => [
+            'path' => 'artigos/{date|Y/m}/{-filename}',
+            'sort' => '-date',
+            'author' => 'Erick Patrick'
         ]
     ],
     'site' => [
@@ -20,5 +25,8 @@ return [
             $page->baseUrl,
             $path
         ]);
+    },
+    'formatDate' => function ($page, $date) {
+        return (new DateTime($date))->format('d/m/Y');
     }
 ];
