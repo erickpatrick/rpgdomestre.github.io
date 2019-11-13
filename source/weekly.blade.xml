@@ -21,8 +21,8 @@
 
         @foreach($weekly as $post)
             <item>
-                <title>{{ $post['mSubtitle'] }}</title>
-                <description>{{ $post['mSubtitle'] }}</description>
+                <title>Weekly #{{ $post['number'] }} do RPG do Mestre</title>
+                <description>Weekly #{{ $post['number'] }} do RPG do Mestre</description>
                 <pubDate>{{ (new DateTime)->format(DATE_ATOM) }}</pubDate>
                 <link>{{ $post->getUrl() }}</link>
                 <guid isPermaLink="true">{{ $post->getUrl() }}</guid>
