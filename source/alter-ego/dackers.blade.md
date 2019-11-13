@@ -1,14 +1,9 @@
 ---
-extends: _layouts.markdown
+extends: _layouts.alter-ego
+subheading: 'Dackers'
 section: mContent
-mActive: true
-mSubheader: true
-mTitle: Alter Ego
-mSubtitle: Dackers
-mNavigation: false
-mSectionPrimary: false
-mUseMTitleForPageTitle: true
-mContentClasses: alter-ego
+description: >-
+    Dackers é um romance que se passa no cenário fictício Terra 2037, do sistema de jogos de interpretação (RPG), Alter Ego
 ---
 
 Conteúdo em breve
