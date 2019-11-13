@@ -5,27 +5,24 @@ mActive: true
 mSubheader: true
 mTitle: Weekly
 mSubtitle: Publicações interessantes curadas semanalmente.
-mNavigation: true
-mSectionPrimary: true
-mUseMTitleForPageTitle: true
 #pagination:
   #collection: weekly
   #perPage: 5
-description: >-
-    Publicações interessantes sobre Roleplaying Games, curadas semanalmente e manualmente.
 ---
 
 @section('mContent')
 
     @if(isset($weekly) && $weekly->count())
-        <ul class="weekly-list">
-        @foreach ($weekly as $post)
-            <li>
-                <h5><a href="{{ $post->getUrl() }}">{{ $post->mSubtitle }}</a></h5>
-                <p>{!! $post->description ?? '' !!}</p>
-            </li>
+        @foreach ($weekly as $key => $post)
+            @include(
+                '_partials.weekly.list',
+                [
+                    'position' => $weekly->count() - $key + 1,
+                    'weekly' => $post,
+                    'last' => $weekly->count()
+                ]
+            )
         @endforeach
-        </ul>
     @else
         Não há edição de weekly publicada até o momento
     @endif
