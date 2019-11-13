@@ -16,14 +16,14 @@
                             <span class="hidden md:inline">Weekly</span>
                         </a>
                     </li>
-                    <!--<li class="sm:ml-3">
+                    <li class="sm:ml-3">
                         <a class="inline-flex items-center p-1 sm:p-2 hover:bg-blue-700 hover:text-white" href="/artigos">
                             <svg class="w-5 h-5 my-2 mx-1 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M18 21H7a4 4 0 01-4-4V5c0-1.1.9-2 2-2h10a2 2 0 012 2h2a2 2 0 012 2v11a3 3 0 01-3 3zm-3-3V5H5v12c0 1.1.9 2 2 2h8.17a3 3 0 01-.17-1zm-7-3h4a1 1 0 010 2H8a1 1 0 010-2zm0-4h4a1 1 0 010 2H8a1 1 0 010-2zm0-4h4a1 1 0 010 2H8a1 1 0 110-2zm9 11a1 1 0 002 0V7h-2v11z"/>
                             </svg>
                             <span class="hidden md:inline">Artigos</span>
                         </a>
-                    </li>-->
+                    </li>
                     <li class="sm:ml-3">
                         <a class="inline-flex items-center p-1 sm:p-2 hover:bg-blue-700 hover:text-white" href="/alter-ego">
                             <svg class="w-5 h-5 my-2 mx-1 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
