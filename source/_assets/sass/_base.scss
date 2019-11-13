@@ -2,7 +2,7 @@ a {
   @apply .break-words;
 }
 
-.weekly {
+.content {
     a {
         @apply .underline;
     }
@@ -34,7 +34,7 @@ a {
         }
     }
 
-    ul {
+    ul, ol {
         @apply .mb-10;
         @apply .pl-10;
         @apply .list-disc;
