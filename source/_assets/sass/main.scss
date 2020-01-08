@@ -4,6 +4,9 @@
 // Code syntax highlighting,
 // powered by https://highlightjs.org
 @import '~highlight.js/styles/a11y-light.css';
+
+/* purgecss start ignore */
 @import '_base';
+/* purgecss end ignore */
 
 @tailwind utilities;
