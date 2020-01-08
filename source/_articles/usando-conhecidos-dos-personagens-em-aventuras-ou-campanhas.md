@@ -7,15 +7,15 @@ date: '2020-01-09 00:00:00'
 section: mContent
 ---
 
-A criação de aventuras e campanhas é um processo complexo e demorado. Criar motivações, objetivos e desafios para os jogadores força bastante a criatividade. Por essas e outras, volta e meia, usamos conhecidos dos personagens-jogadores (<abbr title="Personagens-Jogadores">PJs</abbr>). Dadas as proximidade e relações entre esses NPCs e os personagens dos jogadores, eles podem gerar ótimos ganchos.
+A criação de aventuras e campanhas é um processo complexo e demorado. Criar motivações, objetivos e desafios para os jogadores força bastante a criatividade. Por essas e outras, volta e meia, usamos conhecidos dos personagens-jogadores (<abbr title="Personagens-Jogadores">PJs</abbr>). Dadas as proximidade e relações entre esses <abbr title="Non-Playable Characters ou Personagens Não-Jogáveis">NPCs</abbr> e os personagens dos jogadores, eles podem gerar ótimos ganchos.
 
 ### Abordagens
 
-Nesse artigo, trago apenas alguns exemplos de como utilizar esses <abbr title="Non-Playable Characters ou Personagens Não-Jogáveis">NPCs</abbt> da vida dos PCs. As listadas abaixo são facilmente vistas em livros, séries e filmes. Você consegue identificar onde você já viu alguma delas?
+Nesse artigo, trago apenas alguns exemplos de como utilizar esses <abbr title="Non-Playable Characters ou Personagens Não-Jogáveis">NPCs</abbr> da vida dos PCs. As listadas abaixo são facilmente vistas em livros, séries e filmes. Você consegue identificar onde você já viu alguma delas?
 
 #### Reféns
 
-Uma forma comum de utilizar esses NPCs em aventuras e campanhas é algum vilão torná-los reféns e levá-los para um calabouço, masmorra, caverna... Fazendo isso, o principal objetivo dos PJs seria liberá-los o mais rápido possível e sem _ferimentos físicos_. 
+Uma forma comum de utilizar esses NPCs em aventuras e campanhas é algum vilão torná-los reféns e levá-los para um calabouço, masmorra, caverna... Você escolhe. Fazendo isso, o principal objetivo dos PJs seria liberá-los o mais rápido possível e sem _ferimentos físicos_. 
 
 Veja que frisei _ferimentos físicos_. Nada garante que tais NPCs ficarão sãos, sem traumas psicológicos. Talvez você já tenha uma ideia, mas logo mais abaixo veremos que isso pode afetar o futuro dos PJs.
 
