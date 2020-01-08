@@ -44,6 +44,13 @@ Esse envenenamento, por sua vez, mata a vida fluvial existente, bem como outros 
 Mais uma vez, as possibilidades de efeitos colaterais por conta de ação não totalmente planejada pelo grupo são muito mais que as citadas aqui.
 
 #### Fã
+
+Essa é bem simples. O NPC é muito fã de um dos PJs ou mesmo do grupo como um todo, uma vez que sabe o que eles fazem, que são aventureiros e tudo mais. Ele tenta seguir o grupo por onde vai, algumas vezes conseguindo outras nem tanto.
+
+Ter um fã assim pode ser bem interessante para a parte interpretativa das sessões, bem como partes de combate. Imagine que tal fã é tal qual o Bardo de _The Witcher_. Ele proporcionará várias cenas de interpretação bem interessantes, bem como poderá causar vários desafios para os PJs em horas de combate, uma vez que terão de protegê-lo de alguma forma.
+
+Também é possível que esse fã acabe ajudando o grupo com suas habilidades, seja de batalha ou de profissão. Porém, como ele é mais fã que qualquer outra coisa, ele fará o máximo para não atrapalhar a ação dos PJs.
+
 #### Ajudante
 #### Vilão
 <!-- - lembrar de Homem aranha (filme animado) -->
