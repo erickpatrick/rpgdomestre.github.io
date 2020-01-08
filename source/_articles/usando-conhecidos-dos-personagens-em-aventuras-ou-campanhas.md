@@ -3,7 +3,7 @@ extends: _layouts.articles
 title: Usando conhecidos dos personagens em aventuras ou campanhas
 description: >-
     Saiba um pouco mais como usar personagens conhecidos da vida dos personagens-jogadores em aventuras e campanhas de RPG
-date: 2020-01-09 00:00:00
+date: '2020-01-09 00:00:00'
 section: mContent
 ---
 
