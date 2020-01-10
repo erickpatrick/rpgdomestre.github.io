@@ -24,7 +24,7 @@ Não se engane, porém, que o mundo é preto-no-branco. Grupos de segurança esc
 
 A estrutura básica do planeta não mudou muito, ainda são cinco continentes, mais de duzendo países, muita água marítima... Porém, várias predições sobre aquecimento global tornaram-se verdade. Calotas polares estão cada vez menores e a temperatura média do planeta está dois graus mais alta e continua subindo.
 
-Os problemas populacionais e sociais existentes em 2020 ainda existem em 2037, mas amplificados. Com uma população de aproximadamente nove milhões de pessoas, não era difícil de imaginar que isso acontecesse. Contudo, algumas mudanças geopolíticas aconteceram. 
+Os problemas populacionais e sociais existentes em 2020 ainda existem em 2037, mas amplificados. Com uma população de aproximadamente nove bilhões de pessoas, não era difícil de imaginar que isso acontecesse. Contudo, algumas mudanças geopolíticas aconteceram. 
 
 #### Tecnologia muito avançada
 
@@ -36,7 +36,7 @@ Carros e motos voadores são, hoje, algo que qualquer pessoa pode possuir. Intel
 
 Como a tecnologia evoluiu, ela permitiu avanços gigantes na ciência médica, como a edição gênica, trazendo à vida o _Homo Superus_. Esses seres humanos são tidos como superiores por terem sido projetados ou modificados de tal forma que não adoecem, ou não precisam dormir, ou são mais fortes... Alguns humanos muito ricos pagaram muito caro para obter duas, três, às vezes quatro dessas modificações gênicas.
 
-Outro avanço que a ciência médica adquiriu foi a aprimoração de implantes cibernéticos. Enquanto que em meados dos anos 2020, o que se eram próteses relativamene rudimentares, em 2037 o que se vê é uma simbiose homem-máquina. Pessoas estão trocando membros inteiros, algumas vezes quase o corpo inteiro por uma forma biônica aprimorada. Hoje, eles são conhecidos como _Homo Machina_.
+Outro avanço que a ciência médica adquiriu foi a aprimoração de implantes cibernéticos. Enquanto que em meados dos anos 2020, o que se via eram próteses relativamene rudimentares; em 2037, o que se vê é uma simbiose homem-máquina. Pessoas estão trocando membros inteiros, algumas vezes quase o corpo inteiro por uma forma biônica aprimorada. Hoje, eles são conhecidos como _Homo Machina_.
 
 #### Lideranças mundiais
 #### Agências de Cooperação Internacional
