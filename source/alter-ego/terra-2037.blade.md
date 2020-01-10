@@ -39,7 +39,51 @@ Como a tecnologia evoluiu, ela permitiu avanços gigantes na ciência médica, c
 Outro avanço que a ciência médica adquiriu foi a aprimoração de implantes cibernéticos. Enquanto que em meados dos anos 2020, o que se via eram próteses relativamene rudimentares; em 2037, o que se vê é uma simbiose homem-máquina. Pessoas estão trocando membros inteiros, algumas vezes quase o corpo inteiro por uma forma biônica aprimorada. Hoje, eles são conhecidos como _Homo Machina_.
 
 #### Lideranças mundiais
+
+Em 2031, o mundo sofreu uma mudança muito grande em relação aos países mais poderosos do mundo. Os Estados Unidos, que antes eram a maior força do mundo, perderam o lugar para a China. O Brasil, dada uma cartada mágica do destino, agora é considerado o terceiro mais poderoso. Completando o **G-7**, temos ainda Japão, Rússia, Índia e França. Uma grande coincidência, ou não, esse é o mesmo ranking de países com maior número de _hackers_ em sua população.
+
+Mesmo os Estados Unidos "caindo" para a segunda posição entre as maiores potencias, o inglês cresceu ainda mais como a "língua franca". Ele é entendido em 80% das cidades do mundo. Aquelas cidades em que é mais difícil achar alguém que fale inglês já buscam maneiras de resolver essa questão, uma vez que perdem oportunidades de negócio continuando assim.
+
 #### Agências de Cooperação Internacional
+
+Com o crescimento inesperado da tecnologia e o alcance dos nove bilhões de pessoas no mundo, passou-se a ter um movimento migratório muito maior entre os diversos países e continentes. Essa migração forçou uma cooperação maior entre os diversos países, com acordos de defesa, inteligência, serviços e tecnologia.
+
+As principais agências internacionais que surgiram desses acordos são:
+
+- WIB — World Intelligence Bureau (Departamento de Inteligência Mundial)
+- WMI — World Military Intelligence (Inteligência Militar Mundial)
+- ISI — Inter-Services Intelligence (Inteligência de Inter-Serviços)
+- DSTO — Defensive Science and Technology Organization (Organização de Tecnologia Defensiva e Ciências)
+- ICPO — International Criminal Police Organization (Organização de Polícia Criminal Internacional)
+
+#### Grupos de Segurança
+
+Com a onipresença da Internet, vários grupos de segurança com braços virtuais surgiram ou cresceram, e hoje tem bastante influência na política internacional. As mais conhecidas são:
+
+- Tese
+- MyCoffee
+- Byte Defensor
+- Ariva
+- Ghost in the sky
+- 2vast
+
 #### Grupos Hacktivistas
+
+**em breve**
+
 #### Grupos Dackers
+
+Principais grupos Dackers:
+
+- Funny Security
+- Unknowns
+- Venomous Group
+- The Joker
+- TopTeam
+
 #### Mercado Negro
+
+Os principais produtos comercializados no mercado negro sãoÇ
+
+- Tecnologia
+- Drogas
