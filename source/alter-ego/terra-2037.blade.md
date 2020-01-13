@@ -56,6 +56,8 @@ As principais agências internacionais que surgiram desses acordos são:
 - DSTO — Defensive Science and Technology Organization (Organização de Tecnologia Defensiva e Ciências)
 - ICPO — International Criminal Police Organization (Organização de Polícia Criminal Internacional)
 
+Ver essa cooperação entre os países mais poderosos do mundo é muito interessante e intrigante. Tivemos diversos momentos em que houve movimentos migratórios grande o suficiente para iniciar essa situação contudo eles uniram-se apenas há pouco tempo e essa coperação foca-se, principalmente, em relação a inteligência e defesa... Por quê?
+
 #### Grupos de Segurança
 
 Com a onipresença da Internet, vários grupos de segurança com braços virtuais surgiram ou cresceram, e hoje tem bastante influência na política internacional. As mais conhecidas são:
@@ -67,13 +69,19 @@ Com a onipresença da Internet, vários grupos de segurança com braços virtuai
 - Ghost in the sky
 - 2vast
 
+Embora elas sejam consideradas _Grupos de Segurança_, é muito importar perguntar-se, refletir: Esses grupos fazem a segurança de quem?
+
 #### Grupos Hacktivistas
 
 **em breve**
 
 #### Grupos Dackers
 
-Principais grupos Dackers:
+Por volta de 2032, um grupo autointitulado _Unknowns_, hackeou vários meios de telecomunicação durante o ano para fazer vários anúncios dramáticos. Esses anúnicos aconteceram durante importantes ou chamativos eventos, onde grandes concentrações de pessoas estavam presentes. Nesses anúncios, os _Unknowns_ falavam que a população precisava acordar e perceber o que realmente eram, seu verdadeiro poder, e que se quisessem, eles os ajudariam nisso.
+
+Porém, entre 2033 e 2035, vários outros ataques pronunciamentos aconteceram, mas não vieram dos _Unknowns_. Diversos outros grupos surgiram e passaram a chamar atenção para si. Infelizmente, tivemos uma avalanche de mudanças nesses anúncios, uma vez que passaram a vir acompanhados de ataques financeiros e, por vezes, ataques físicos a diversos pontos turísticos.
+
+Grupos Dackers que já apareceram:
 
 - Funny Security
 - Unknowns
@@ -83,7 +91,7 @@ Principais grupos Dackers:
 
 #### Mercado Negro
 
-Os principais produtos comercializados no mercado negro sãoÇ
+Os principais produtos comercializados no mercado negro são:
 
 - Tecnologia
 - Drogas
