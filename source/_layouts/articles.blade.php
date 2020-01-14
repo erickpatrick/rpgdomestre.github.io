@@ -10,6 +10,8 @@
 {{ $page->title }} | {{ $page->site->title }}
 @endsection
 
+@section('keywords', $page->keywords)
+
 @section('content')
 <div class="mt-20 px-5 min-h-screen content">
     <div class="py-5 container mx-auto">
