@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="@yield('description')">
-        <meta name="keywords" content="{{ $page->site->keywords  }}">
+        <meta name="keywords" content="@yield('keywords', $page->site->keywords)">
         <link rel='manifest' href='{{ $page->baseUrl }}/manifest.json'>
         {{-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> --}}
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
