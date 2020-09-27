@@ -1,4 +1,7 @@
 module.exports = {
+  purge: [
+    './source/**/*.blade.php',
+  ],
   theme: {
     fontSize: {
       'xs': '.75rem',
