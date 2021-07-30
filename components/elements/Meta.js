@@ -4,6 +4,12 @@ const DEFAULT_PAGE_TITLE = "RPG do Mestre";
 const DEFAULT_PAGE_DESCRIPTION =
   "Onde o mestre cria, reinventa, modifica e publica RPG";
 
+export function getBaseUrl() {
+  return process.env.NODE_ENV === "development"
+    ? "http://localhost:3000/"
+    : "https://www.rpgdomestre.com/";
+}
+
 const Meta = ({ title, description }) => {
   const currentTitle = title
     ? `${title} | ${DEFAULT_PAGE_TITLE}`
@@ -20,7 +26,8 @@ const Meta = ({ title, description }) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content={currentDescirption} />
         <link rel="preconnect" href="https://res.cloudinary.com" />
-        <link rel="dns-prefetch" href="https://res.cloudinary.com"></link>
+        <link rel="dns-prefetch" href="https://res.cloudinary.com" />
+        <base href={getBaseUrl()} />
         <title>{currentTitle}</title>
       </Head>
     </>
