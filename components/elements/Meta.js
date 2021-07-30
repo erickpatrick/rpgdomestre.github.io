@@ -15,7 +15,7 @@ const Meta = ({ title, description }) => {
     <>
       <Head>
         <meta charSet="UTF-8" />
-        <meta http-equiv="Content-Language" content="pt-br" />
+        <meta httpEquiv="Content-Language" content="pt-br" />
         <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content={currentDescirption} />
