@@ -1,13 +1,16 @@
 import Link from "next/link";
-import Image from "next/image";
-import Logo from "../../../public/images/mestre.jpg";
 
 export default function HeaderInternal() {
   return (
     <div className="sm:flex sm:justify-between text-center sm:py-16">
       <Link href="/">
         <a className="flex py-8 sm:flex-item sm:py-0 items-center justify-center">
-          <Image src={Logo} width="80" height="80" alt="Logo RPG do Mestre" />
+          <img
+            src="images/mestre.jpg"
+            width="80"
+            height="80"
+            alt="Logo RPG do Mestre"
+          />
 
           <span className="text-left pl-1">
             <span className="block text-3xl font-semibold -mb-2 text-transparent bg-gradient-to-r bg-clip-text from-blue-600 to-pink-600">
