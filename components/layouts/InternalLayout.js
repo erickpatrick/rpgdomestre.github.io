@@ -1,6 +1,6 @@
 import Main from "./Main";
-import HeaderInternal from "../elements/Header/Internal";
-import Meta from "../elements/Meta";
+import HeaderInternal from "@/components/elements/Header/Internal";
+import Meta from "@/components/elements/Meta";
 
 export default function InternalLayout({ children, meta }) {
   return (
