@@ -6,7 +6,7 @@ export default function AlterEgoSection({ name, description, href }) {
       <span className="block font-medium text-gray-700">{name}</span>
       <span className="inline-block mt-2 text-gray-400">{description}</span>
       <Link href={href}>
-        <a className="underline">Ler mais</a>
+        <a className="underline !text-yellow-500">Ler mais</a>
       </Link>
     </div>
   );
