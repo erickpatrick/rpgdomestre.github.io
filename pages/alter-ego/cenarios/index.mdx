@@ -1,0 +1,32 @@
+import Link from "next/link";
+import InternalLayout from "@/components/layouts/InternalLayout";
+import AlterEgoSection from "@/components/elements/AlterEgo/Section";
+
+export const meta = {
+  title: "Cenários",
+  color: "yellow",
+  description:
+    "O Alter Ego tem, no momento, 2 cenários principais: Terra 2037 e Terra 3600.",
+  section: "Alter Ego",
+};
+
+export default function Contact({ children }) {
+  return <InternalLayout meta={meta}>{children}</InternalLayout>;
+}
+
+O Alter Ego tem suas raíses na ficção científica, no mundo Cyberpunk, na alta tecnologia. Exatamente por isso, faz todo sentido que as ambientações dos cenários oficiais também tenha as mesmas raíses.
+
+Há uma diferença, porém. Terra 2037 apresentará as possibilidades iniciais dessa ambientação particular.Já a Terra 3600 mostrará o que a ambientação de Alter Ego é realmente capaz de proporcionar.
+
+<div className="md:flex md:-mx-36">
+  <AlterEgoSection
+    name="Terra 2037"
+    description="A grande e nova Era da Informação chegou. O mundo inteiro está, literalmente, conectado."
+    href="/alter-ego/cenarios/terra-2037"
+  />
+  <AlterEgoSection
+    name="Terra 3600"
+    description="A Terra já não tem mais vida, o qeu restou do que conhecemos hoje está viajando pelo espaço."
+    href="/alter-ego/cenarios/terra-3600"
+  />
+</div>

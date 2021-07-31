@@ -1,0 +1,25 @@
+import Link from "next/link";
+import InternalLayout from "@/components/layouts/InternalLayout";
+import AlterEgoSection from "@/components/elements/AlterEgo/Section";
+
+export const meta = {
+  title: "Ficção",
+  description: "",
+  color: "yellow",
+  section: "Alter Ego",
+};
+
+export default function Contact({ children }) {
+  return <InternalLayout meta={meta}>{children}</InternalLayout>;
+}
+
+Eu acredito piamente que o Alter Ego permite uma gama muito grande de romances, contos e histórias. Ambientados no cenário <Link href="/alter-ego/cenarios/terra-2037/"><a>Terra 2037</a></Link>, os primeiros romance e contos serão de ficção científica.
+
+<div class="md:flex md:-mx-36">
+  <AlterEgoSection
+    name="Dackers"
+    description="O mundo é parecido com o que conhecemos: mesmas cidades, países e condições climáticas. Porém, a tecnologia é muito mais avançada e a população tem vivido muito mais numa versão aprimorada da Internet: a Grade."
+    href="/alter-ego/ficcao/dackers"
+  />
+  <AlterEgoSection name="" description="" href="" />
+</div>
