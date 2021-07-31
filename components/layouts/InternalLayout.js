@@ -15,7 +15,7 @@ export default function InternalLayout({ children, meta }) {
             <h6
               className={`sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-${meta?.color}-600 mb-3`}
             >
-              Weekly
+              {meta?.section}
             </h6>
             <h1>{meta?.title}</h1>
             {children}
