@@ -1,0 +1,34 @@
+import Link from "next/link";
+import InternalLayout from "@/components/layouts/InternalLayout";
+import AlterEgoSection from "@/components/elements/AlterEgo/Section";
+
+export const meta = {
+  title: "Alter Ego",
+  color: "yellow",
+  description:
+    "Alter Ego é um projeto de RPG do site RPG do Mestre que engloba Sistema, Cenários e Ficção",
+};
+
+export default function Contact({ children }) {
+  return <InternalLayout meta={meta}>{children}</InternalLayout>;
+}
+
+Alter Ego é um projeto que nasceu em meados de 2018, na minha busca por me tornar um Game Designer de jogos analógicos. Embora não seja usado por muito mais pessoas além de mim e alguns amigos próximos, decidi colocá-lo online para caso alguém tenha interesse em testá-lo e ajudar a aprimorá-lo.
+
+<div className="md:flex md:-mx-36">
+  <AlterEgoSection
+    name="Sistema"
+    description="Alter Ego, do Latim, outro eu, é um sistema genérico e rápido que utiliza dados de 6 lados."
+    href="/alter-ego/sistema"
+  />
+  <AlterEgoSection
+    name="Cenários"
+    description="Conheça os cenários de Alter Ego: Terra 2037 e Terra 3600"
+    href="/alter-ego/cenarios"
+  />
+  <AlterEgoSection
+    name="Ficção"
+    description="Se você curte ficção científica no estilo Cyberpunk ou similares, você veio ao lugar certo"
+    href="/alter-ego/ficcao"
+  />
+</div>
