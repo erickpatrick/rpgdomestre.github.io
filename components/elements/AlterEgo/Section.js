@@ -1,0 +1,13 @@
+import Link from "next/link";
+
+export default function AlterEgoSection({ name, description, href }) {
+  return (
+    <div className="flex-1 pb-5 md:p-5">
+      <span className="block font-medium text-gray-700">{name}</span>
+      <span className="inline-block mt-2 text-gray-400">{description}</span>
+      <Link href={href}>
+        <a className="underline">Ler mais</a>
+      </Link>
+    </div>
+  );
+}
