@@ -1,22 +1,11 @@
 import { MDXProvider } from "@mdx-js/react";
 import Footer from "@/components/elements/Footer";
-import Image from "next/image";
+import Image from "@/components/elements/General/Image";
+import Link from "@/components/elements/General/Link";
 
 const components = {
-  img: function NextImage(props) {
-    return (
-      <Image
-        alt="image alt"
-        {...props}
-        width={16}
-        height={9}
-        layout="responsive"
-        quality={65}
-        layout="responsive"
-        loading="lazy"
-      />
-    );
-  },
+  img: Image,
+  link: Link,
 };
 
 export default function Main({ children }) {
