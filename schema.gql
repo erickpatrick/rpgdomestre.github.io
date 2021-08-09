@@ -1,3 +1,5 @@
+# this schema is reused across all my websites properties
+
 type ContactMessage {
   website: String!
   name: String!
