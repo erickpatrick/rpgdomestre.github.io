@@ -15,12 +15,16 @@ export default async function handler(req, res) {
         body: { website, name, email, message },
       } = req;
 
+      const date = new Date();
+      const dateValue =
+        date.getFullYear() + "-" + date.getUTCMonth() + "-" + date.getUTCDay();
+
       const created = await createContactMessage({
         website,
         name,
         email,
         message,
-        createdAt: "2021-09-08",
+        createdAt: dateValue,
       });
 
       res.json(created);
