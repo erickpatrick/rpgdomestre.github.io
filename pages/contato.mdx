@@ -1,4 +1,5 @@
 import InternalLayout from "@/components/layouts/InternalLayout";
+import Form from "@/components/elements/General/Form";
 
 export const meta = {
   title: "Contato",
@@ -11,11 +12,9 @@ export default function Contact({ children }) {
   return <InternalLayout meta={meta}>{children}</InternalLayout>;
 }
 
-Quer entrar em contato comigo mas não é para [enviar um link], [anunciar na Weekly], [enviar uma correção] nem [falar sobre artigos patrocinados]? Tudo certo!
+Quer entrar em contato comigo mas não é para [enviar um link], [anunciar na Weekly], [enviar uma correção] nem [falar sobre artigos patrocinados]? Tudo certo! Basta preencher o formulário abaixo:
 
-## Entre em contato agora
-
-Mande um email para **_rpgdm(arroba)erickpatrick.net_** com o assunto "Contato". A partir desse email inicial, discutiremos mais sobre o que você quer falar e tentaremos chagar a uma conclusão o mais rápido que puder.
+<Form website="rpgdomestre.com" action="/api/contact/create" />
 
 [enviar um link]: /weekly/enviar-um-link/
 [anunciar na weekly]: /weekly/anunciar-na-weekly/
