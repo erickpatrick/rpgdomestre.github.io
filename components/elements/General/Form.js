@@ -1,21 +1,32 @@
 import { useForm } from "react-hook-form";
+import { useState } from "react";
 import fetcher from "@/lib/faunaFetch";
 
 export default function Form({ action, website }) {
-  console.log(action);
+  const [result, setResult] = useState(false);
   const {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm();
   const submitForm = async (data) => {
-    if (data.country == "") {
+    try {
       fetcher(action, data);
+      setResult(true);
+      reset();
+    } catch {
+      setResult(false);
     }
   };
 
   return (
     <div className="mt-8 max-w-xl">
+      {result && (
+        <div className="mb-4 p-4 w-full bg-green-200 !text-base rounded-md">
+          Obrigado por sua mensagem
+        </div>
+      )}
       <form
         onSubmit={handleSubmit(submitForm)}
         className="grid grid-cols-1 gap-6"
