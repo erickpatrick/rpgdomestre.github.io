@@ -41,7 +41,7 @@ export default async function handler(req, res) {
 
   try {
     // 3 requests per minute
-    await limiter.check(res, 5, "CONTACT_CREATE_CACHE_TOKEN");
+    await limiter.check(res, 10, "CONTACT_CREATE_CACHE_TOKEN");
     await handlers[req.method]();
   } catch {
     return res.status(429).json({ error: "Rate limit exceeded" });
