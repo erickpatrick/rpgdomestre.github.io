@@ -21,7 +21,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    await limiter.check(res, 10, "CONTACT_INDEX_CACHE_TOKEN");
+    await limiter.check(res, 600, "CONTACT_INDEX_CACHE_TOKEN");
     await handlers[req.method]();
   } catch {
     res.status(429).json({ error: "Rate limit exceeded" });
