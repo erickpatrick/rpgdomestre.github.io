@@ -16,8 +16,12 @@ export default async function handler(req, res) {
       } = req;
 
       const date = new Date();
-      const dateValue =
-        date.getFullYear() + "-" + date.getUTCMonth() + "-" + date.getUTCDay();
+      const year = date.getFullYear();
+      const month =
+        date.getUTCMonth() < 10 ? "0" + date.getUTCMonth() : date.getUTCMonth();
+      const day =
+        date.getUTCDay() < 10 ? "0" + date.getUTCDay() : date.getUTCDay();
+      const dateValue = `${year}-${month}-${day}`;
 
       const created = await createContactMessage({
         website,
@@ -27,7 +31,7 @@ export default async function handler(req, res) {
         createdAt: dateValue,
       });
 
-      res.json(created);
+      return res.json(created);
     },
   };
 
@@ -37,9 +41,9 @@ export default async function handler(req, res) {
 
   try {
     // 3 requests per minute
-    await limiter.check(res, 3, "CACHE_TOKEN");
+    await limiter.check(res, 5, "CONTACT_CREATE_CACHE_TOKEN");
     await handlers[req.method]();
   } catch {
-    res.status(429).json({ error: "Rate limit exceeded" });
+    return res.status(429).json({ error: "Rate limit exceeded" });
   }
 }
