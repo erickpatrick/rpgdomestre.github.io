@@ -10,7 +10,7 @@ export function getBaseUrl() {
     : "https://www.rpgdomestre.com/";
 }
 
-const Meta = ({ title, description }) => {
+const Meta = ({ title, description, keywords }) => {
   const currentTitle = title
     ? `${title} | ${DEFAULT_PAGE_TITLE}`
     : DEFAULT_PAGE_TITLE;
@@ -25,6 +25,7 @@ const Meta = ({ title, description }) => {
         <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content={currentDescirption} />
+        <meta name="keywords" content={keywords} />
         <link rel="preconnect" href="https://res.cloudinary.com" />
         <link rel="dns-prefetch" href="https://res.cloudinary.com" />
         <base href={getBaseUrl()} />
