@@ -6,13 +6,19 @@ import HomeHero from "@/components/elements/Home/Hero";
 export const meta = {
   title: "RPG do Mestre",
   description: "Onde o mestre cria, reinventa, modifica e publica RPG",
+  keywords:
+    "rpg, roleplaing game, rpg do mestre, rpgdm, jogos de interpretação de papeis, interpretação",
 };
 
 export default function Index({ children }) {
   return (
     <>
       <Main>
-        <Meta title={meta?.title ?? ""} description={meta?.description} />
+        <Meta
+          title={meta?.title ?? ""}
+          description={meta?.description}
+          keywords={meta?.keywords}
+        />
         {children}
       </Main>
     </>
