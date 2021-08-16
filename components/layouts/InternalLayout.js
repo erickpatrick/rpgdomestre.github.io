@@ -6,7 +6,14 @@ export default function InternalLayout({ children, meta }) {
   return (
     <>
       <Main>
-        <Meta title={meta?.title ?? ""} description={meta?.description} />
+        <Meta
+          title={meta?.title ?? ""}
+          description={meta?.description}
+          keywords={
+            meta?.keywords ??
+            "rpg, roleplaing game, rpg do mestre, rpgdm, jogos de interpretação de papeis, interpretação, blog"
+          }
+        />
         <div className="container mx-auto p-4">
           <HeaderInternal />
           <div
