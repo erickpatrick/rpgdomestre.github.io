@@ -7,7 +7,6 @@ export default function LocalImage(props) {
       {...props}
       width={16}
       height={9}
-      layout="responsive"
       quality={65}
       layout="responsive"
       loading="lazy"
