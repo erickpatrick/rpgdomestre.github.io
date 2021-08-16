@@ -1,11 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HeaderInternal() {
   return (
     <div className="sm:flex sm:justify-between text-center sm:py-16">
       <Link href="/">
         <a className="flex py-8 sm:flex-item sm:py-0 items-center justify-center">
-          <img
+          <Image
             src="images/mestre.jpg"
             width="80"
             height="80"
