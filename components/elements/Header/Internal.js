@@ -7,7 +7,7 @@ export default function HeaderInternal() {
       <Link href="/">
         <a className="flex py-8 sm:flex-item sm:py-0 items-center justify-center">
           <Image
-            src="images/mestre.jpg"
+            src="/images/mestre.jpg"
             width="80"
             height="80"
             alt="Logo RPG do Mestre"
