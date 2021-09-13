@@ -8,6 +8,10 @@ module.exports = withMDX({
   images: {
     domains: ["res.cloudinary.com"],
   },
+  i18n: {
+    locales: ["pt-BR"],
+    defaultLocale: "pt-BR"
+  },
   async redirects() {
     return [
       {
