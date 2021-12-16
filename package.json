@@ -8,7 +8,7 @@
     "articles": "node scripts/generate-articles.mjs"
   },
   "dependencies": {
-    "@auth0/nextjs-auth0": "^1.5.0",
+    "@auth0/nextjs-auth0": "^1.6.2",
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^11.0.1",
     "@tailwindcss/forms": "^0.3.3",
