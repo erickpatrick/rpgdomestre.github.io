@@ -19,7 +19,6 @@ module.exports = withMDX({
   reactStrictMode: true,
   experimental: {
     newNextLinkBehavior: true,
-    images: { allowFutureImage: true, unoptimized: true },
   },
   swcMinify: true,
   pageExtensions: ["js", "jsx", "mdx"],
