@@ -11,24 +11,27 @@ export default function Footer() {
             </h2>
             <ul className="space-y-4">
               <li>
-                <Link href="/weekly">
-                  <a className="hover:text-gray-900 transition-colors duration-200">
-                    Todos as edições
-                  </a>
+                <Link
+                  href="/weekly"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Todos as edições
                 </Link>
               </li>
               <li>
-                <Link href="/weekly/envie-um-link">
-                  <a className="hover:text-gray-900 transition-colors duration-200">
-                    Envie um link
-                  </a>
+                <Link
+                  href="/weekly/envie-um-link"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Envie um link
                 </Link>
               </li>
               <li>
-                <Link href="/weekly/anuncie-na-weekly">
-                  <a className="hover:text-gray-900 transition-colors duration-200">
-                    Anuncie na Weekly
-                  </a>
+                <Link
+                  href="/weekly/anuncie-na-weekly"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Anuncie na Weekly
                 </Link>
               </li>
             </ul>
@@ -39,24 +42,27 @@ export default function Footer() {
             </h2>
             <ul className="space-y-4">
               <li>
-                <Link href="/artigos">
-                  <a className="hover:text-gray-900 transition-colors duration-200">
-                    Todos os artigos
-                  </a>
+                <Link
+                  href="/artigos"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Todos os artigos
                 </Link>
               </li>
               <li>
-                <Link href="/artigos/envie-uma-correcao">
-                  <a className="hover:text-gray-900 transition-colors duration-200">
-                    Envie uma correção
-                  </a>
+                <Link
+                  href="/artigos/envie-uma-correcao"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Envie uma correção
                 </Link>
               </li>
               <li>
-                <Link href="/artigos/artigos-patrocinados">
-                  <a className="hover:text-gray-900 transition-colors duration-200">
-                    Artigos patrocinados
-                  </a>
+                <Link
+                  href="/artigos/artigos-patrocinados"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Artigos patrocinados
                 </Link>
               </li>
             </ul>
@@ -67,24 +73,27 @@ export default function Footer() {
             </h2>
             <ul className="space-y-4">
               <li>
-                <Link href="/alter-ego/sistema">
-                  <a className="hover:text-gray-900 transition-colors duration-200">
-                    Sistema
-                  </a>
+                <Link
+                  href="/alter-ego/sistema"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Sistema
                 </Link>
               </li>
               <li>
-                <Link href="/alter-ego/cenarios">
-                  <a className="hover:text-gray-900 transition-colors duration-200">
-                    Cenários
-                  </a>
+                <Link
+                  href="/alter-ego/cenarios"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Cenários
                 </Link>
               </li>
               <li>
-                <Link href="/alter-ego/ficcao">
-                  <a className="hover:text-gray-900 transition-colors duration-200">
-                    Ficção
-                  </a>
+                <Link
+                  href="/alter-ego/ficcao"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Ficção
                 </Link>
               </li>
             </ul>
@@ -95,24 +104,27 @@ export default function Footer() {
             </h2>
             <ul className="space-y-4">
               <li>
-                <Link href="/sobre">
-                  <a className="hover:text-gray-900 transition-colors duration-200">
-                    Sobre
-                  </a>
+                <Link
+                  href="/sobre"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Sobre
                 </Link>
               </li>
               <li>
-                <Link href="/contato">
-                  <a className="hover:text-gray-900 transition-colors duration-200">
-                    Contato
-                  </a>
+                <Link
+                  href="/contato"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Contato
                 </Link>
               </li>
               <li>
-                <Link href="https://twitter.com/rpgdm">
-                  <a className="hover:text-gray-900 transition-colors duration-200">
-                    Twitter
-                  </a>
+                <Link
+                  href="https://twitter.com/rpgdm"
+                  className="hover:text-gray-900 transition-colors duration-200"
+                >
+                  Twitter
                 </Link>
               </li>
             </ul>

@@ -1,7 +1,7 @@
-import Image from "next/image";
+import Image from "next/future/image";
 import logo from "../../../public/images/mestre.jpg";
 
-export default function HomeHero() {
+export default function HomeHero({}) {
   return (
     <div className="flex items-center justify-center py-16 md:py-32">
       <div className="!w-20 sm:!w-44">

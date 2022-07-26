@@ -7,8 +7,8 @@ export default function WeeklySection({ title, href, children }) {
         {title}
       </h3>
       <p className="leading-relaxed mb-8">{children}</p>
-      <Link href={href}>
-        <a className="!text-blue-600 inline-flex items-center">Ler mais »</a>
+      <Link href={href} className="!text-blue-600 inline-flex items-center">
+        Ler mais »
       </Link>
     </div>
   );
