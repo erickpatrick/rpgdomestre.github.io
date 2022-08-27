@@ -1,35 +1,33 @@
 {
+  "name": "@example/basics",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "articles": "node scripts/generate-articles.mjs"
-  },
-  "dependencies": {
-    "@mdx-js/loader": "^2.1.2",
-    "@next/mdx": "^12.2.3",
-    "faunadb": "4.3.0",
-    "graphql": "15.5.1",
-    "graphql-request": "3.5.0",
-    "gray-matter": "^4.0.3",
-    "lru-cache": "^6.0.0",
-    "next": "^12.2.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-hook-form": "^7.12.2",
-    "swr": "0.5.6"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "devDependencies": {
+    "@astrojs/image": "^0.3.2",
+    "@astrojs/preact": "^1.0.2",
+    "@astrojs/sitemap": "^1.0.0",
+    "@astrojs/tailwind": "^1.0.0",
     "@tailwindcss/forms": "^0.5.2",
     "@tailwindcss/typography": "^0.5.4",
-    "autoprefixer": "^10.4.7",
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0",
-    "globby": "^12.0.0",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.6",
-    "unist-util-visit": "^2.0.3"
+    "astro": "^1.0.0"
+  },
+  "dependencies": {
+    "@astrojs/vercel": "^1.0.1",
+    "graphql-request": "^4.3.0",
+    "lru-cache": "^7.14.0",
+    "react": "npm:@preact/compat@latest",
+    "react-dom": "npm:@preact/compat@latest",
+    "react-hook-form": "^7.34.2"
+  },
+  "overrides": {
+    "react": "npm:@preact/compat@latest",
+    "react-dom": "npm:@preact/compat@latest"
   }
 }

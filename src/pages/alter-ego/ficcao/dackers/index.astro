@@ -1,0 +1,22 @@
+---
+import Internal from "../../../../layouts/Internal.astro";
+import * as Index from "./_index.md";
+
+const title = "Dackers";
+const color = "yellow";
+const section = "Ficção";
+const description =
+  "Dackers é um romance que se passa no cenário fictício Terra 2037, do sistema de jogos de interpretação (RPG), Alter Ego";
+const keywords =
+  "rpg, roleplaying games, roleplaying, rpgdm, rpg do mestre, alter ego, sistema, system, d6, aes, alter ego system, cenário, scenario";
+---
+
+<Internal
+  title={title}
+  color={color}
+  description={description}
+  section={section}
+  keywords={keywords}
+>
+  <Fragment set:html={Index.compiledContent()} />
+</Internal>

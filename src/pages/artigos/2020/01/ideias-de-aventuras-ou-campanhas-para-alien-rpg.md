@@ -1,0 +1,135 @@
+---
+title: "Ideias de aventuras ou campanhas para Alien RPG"
+color: "pink"
+description: >-
+  "Uma seleção com 11 ideias variadas advindas da leitura do livro de regras base do jogo Alien RPG."
+keywords:
+  - rpg
+  - ttrpg
+  - alien
+  - prometheus
+  - aventura
+  - campanha
+  - covenant
+  - engineers
+  - engenheiros
+  - terror
+  - horror
+  - suspense
+  - thriller
+  - fria ligan
+  - free league
+  - ideia
+  - dica
+date: "2020-01-10"
+section: "Artigos"
+layout: "src/layouts/Internal.astro"
+---
+
+[Um pouco antes do Natal], adquiri uma cópia em [PDF do livro Alien RPG] da Fria Ligan. O livro é belíssimo, com muitas imagens de página inteira e com uma pegada bem próxima ao que filmes trazem. O livro é repleto de **_lore complementar_** ao que os filmes trazem, o que me deu diversas ideias de aventuras ou campanhas para esse jogo.
+
+Uma coisa que eu percebi pela leitura do livro é que, diferente da enorme ação e poucas "perguntas filosóficas" que os filmes apresentam, Alien é sobre a humanidade, sobre sua evolução e sua sobrevivência. Mas também é sobre como o ser humano pode ser terrível com os outros. Ter isso em mente ao criar uma aventura e/ou campanha de Alien, ao meu ver, é um tiro certeiro.
+
+Abaixo, há 11 ideias para aventuras após essa lida inicial. Espero que quem vier a ser uma
+GM possa aproveitar delas. Embora o próprio livro já forneça tabelas com ideias que podemos compô-las e criar algo em pouco tempo, bastando rolar alguns dados, as ideias abaixo surgiram mais nas "entrelinhas" da leitura. Sem mais demoras, segue a lista:
+
+### Expedição para terraformar algum asteróide/planeta/lua
+
+Como expedição e expanção territórial por parte dos humanos é um dos principais temas na franquia Alien, nada mais justo que uma aventura ou uma campanha que gire em torno da terraformação de algum asteróide ou planeta que pareça ser fonte razoável de recursos para a humanidade (ou para a compania para a qual o grupo trabalha).
+
+### Ir a uma colônia mineradora buscar suprimentos
+
+Dada a expansão intergalática humana, várias colônias mineradoras de suprimentos, são necessárias para uma expedição. A tecnologia de viagem é avançada suficiente mas ainda necessita de suprimentos para manter o oxigênio, limpar aguá, gerar energia e tudo mais.
+
+A expedição dos personagens jogadores encontra-se em rota duma dessa colônias, como programado para sua viagem. Porém, algo acontece e complica os planos.
+
+Como se pode imagina, é possível utilizar essa ideia sozinha ou como continuação da ideia anterior, o que poderia dar um bom senso de continuidade para os jogadores, e a possibilidade de uma campanha maior.
+
+### Descobrir o que aconteceu com Prometheus
+
+Ninguém sabe o que aconteceu com a expedição Prometheus, só que ela deixou de se comunicar com a base. Assim, o grupo dos jogadores é contratado ou escalado para uma expedição extraordinária para descobrir algo mais.
+
+A viagem será longa e aqueles que são escalados/contratados tem de ter em mente que é possível que tenhamo o mesmo fim que a tripulação de Prometheus teve.
+
+Nesse tipo de viagem, a tripulação não é pequena. É bem provável que haja 2 ou 3 dezenas de pessoas envolvidas, dadas as mais diversas tarefas que uma viagem tão longa e de futuro incerto requer.
+
+O objetivo é meio que óbvio: descobrir o que aconteceu com Prometheus. Além dele, também há muitas chances de encontros com Alien, com outras formas de vida, com Engenheiros e por aí vai.
+
+Das ideias apresentadas aqui, acredito que seja a que mais tem cara e corpo de enredo (plot) base para uma campanha. Contudo, se bem desenvolvidas, todas as outras ideias também podem gerar ótimos enredos de campanha.
+
+### Descobrir o que tem causado as perdas de contato de estações e veículos com as bases
+
+No seu cenário, pode ser que um número muito alto de estações e veículos inter-colônias tem perdido contato com suas respectivas bases espaciais e, consequentemente, desaparecido.
+
+O foco do grupo dos jogadores seria fazer parte de um pelotão militar ou de um grupo de pesquisa de alguma empresa enviado para descobrir o que tem causado essas perdas de comunicação.
+
+Lembre-se, nem tudo precisar ser relacionado a Alien (embora seja mais legal). Pode ser haja sabotadores ou desertores nas tripulações desaparecidas. Pode ser que alguma mancha solar de algum sistema de planetas próximo, de alguma forma invisível (tecnologia dos Engenheiros?) aos radadores humanos, esteja causando tais falhas.
+
+Recomendo buscar em literatura científica real por problemas que podem acontecer com veículos e estações desse tipo.
+
+### Investigar traços da existência de formas Alien em uma nova colônia
+
+Às vezes, a terraformação e colonização de um asteróide ou planeta sai tão bem sucedido que pesquisadores ficam se perguntando se não há algo de errado. E muitas dessas vezes, há. Tendo isso em mente, passa-se a ser prática comum a verificação das diversas áreas de fácil acesso pós terraformação/colonização, para garantir que não haja qualquer coisa ruim que afete a vida daqueles que viverão por lá.
+
+Na maioria das vezes, uma verificação aérea não é suficiente. O uso de certas tecnologias em pontos estratégicos podem garantir que o processo de terraformação não liberou ou despertou qualquer forma de vida que venha a colocar a vida humana em risco. E não se fala apenas em formas sensientes, mas de microorganismos, bactérias, etc.
+
+O grupo de jogadores faria parte de um dos grupos que garantiria que a vida pós terraformação é segura e teria de usar dos diversos artefatos para demonstrar que tal afirmação é verdadeira.
+
+Além disso, sempre lembre que, embora a equipe dos jogadores possa trabalhar junta há muito tempo, outros personagens não-jogadores podem ser novatos no grupo e causar desequilíbrio.
+
+### Investigar a existência de biomas em território de facção antagônica
+
+Por ser um jogo que trata bastante da dualidade e capacidades sociais humanas, uma aventura investigativa em território comandado por uma facção;empresa antagônica vem bem a calhar. Esse tipo de aventura é um prato cheio para testar o quanto os personagens se mantem na linha, tênue diga-se, entre o bem e mal.
+
+Além de terem de praticar a arte furtividade por estarem em território inimigo, pode-se adicionar elementos administração de tempo, por exemplo. Isso faz com que haja uma urgência no grupo o que pode força-los a errarem, e errar em território "inimigo" nunca é uma coisa boa.
+
+### Ajudar no trasporte de alguém ou alguma coisa até a Terra
+
+É possível que algum grupo que jogue com você decida pertencer apenas a algum exército, milicia ou empresa.
+
+Assim sendo, é possível que eles sejam mandados numa missão de segurança de uma carga muito valiosa: se é algum artefato Alien ou dos Engenheiros, se é uma nova tecnologia humana ultradesenvolvida, uma pessoa muito importante, ou simplesmente uma carga qualquer.
+
+Independente do que estejam transportandos, os diversos intemperies que se pode encontrar no caminho da viagem já são desafios suficiente para qualquer equipe. Se há um rumor que a carga é algo extremamente valioso como tecnologia dos Engenheiros, é possível que agentes de outras facções tentem invadir a missão, disfarçados.
+
+Também se pode esperar que algum membro da equipe cresça o olho para o que é transportado e decida vender a mercadoria, desviando o caminho para um local onde possa finalizar a transação.
+
+Não esqueça que equipes de missões como essa não contam apenas com as personagens jogadores (que, provavelmente, serão quatro ou cinco pessoas). As chances de serem 10 ou mais pessoas são bem grandes.
+
+### Fazer parte do comboio de soldados enviados para acabar com uma guerra ou conflito
+
+Não raro, algumas empresas deixam que outras tomem a dianteira e liderem a caçada por novos territórios ricos em matérias primas e outros recursos. Dessa forma, as outras empresas investem em pesquisa e tecnologia necessária em terraformação e colonização do local, e elas apenas precisam chegar pouco depois e tentar ganhar o máximo de espaço que puder.
+
+A humanidade está se expandindo, mas não quer dizer que as empresas estejam menos gananciosas.
+
+Dessa forma, as chances de guerras ou conflitos armados acontecerem em colônias, sejam elas existentes ou novas, próximas ou longínquas, será bem alta. O grupo faz parte de um combio enviado para promover o entendimento entre as diversas facções, da forma que for necessária: com palavras ou com mais guerra.
+
+### Viajar em pesquisa tentando decifrar sinais vindos de um planeta
+
+Em algum momento, a Terra, alguma nave ou colônia passou a receber sinais vindos de algum planeta onde, em tese, não deveria ter qualquer projeto ou colônia conhecida. Pesquisadores acreditam que sejam sinais de socorro de expedições perdidas, como a Prometheus.
+
+Assim, o grupo é chamado para decifrar a mensagem enviada, bem como ir até tal planeta no caso da messagem realmente ser um pedido de socorro, seja de alguma dessas expedições perdidas ou de outras que estão com problemas.
+
+### Fazer parte de um grupo em meio a dois clãs de Xenomorfos dispoutam território
+
+Xenomorfos são uma espécie de Alien extremamente mortífera, poderosa e terrível. Não penas são assim com criaturas diferentes delas como também com outros de sua própria espécie, acabando por gerar disputas territoriais horríveis.
+
+Qualquer um próximo de disputas como essas está numa situação muito ruim. E, sim, os personagens encontram-se nessa situação. Em um novo asteróide recém terraformado, o grupo pesquisa fontes de materiais e recursos que possam ser úteis para sua nave, antes de voltarem para a base mais próxima.
+
+Infelizmente, os Xenomorfos não querem saber disso e simplesmente estão lutando e caçando um ao outro, colocando todos do grupo, assim como suas missões em risco.
+
+### Grupo em meio a guerra entre dois tipos de Alien (Neomorfos e Xenomorfos)
+
+Como extensão (ou modificação) da ideia anterior, é possível que a guerra seja entre dois tipos diferentes de Alien. Essencialmente, não há muita diferença, continua sendo uma situação letal e bem complicada para quem estiver próximo. Porém, sendo tipos diferentes de Alien, as táticas utilizadas por eles serão diferentes das táticas aplicadas por Alien da mesma espécie.
+
+Essa mudança dificulta ainda mais a vida do grupo, já que terão de buscar mais maneiras de sobreviver (ou, pelo menos, de prolongar suas vidas). Se criar uma solução para um estilo de luta e caça de um Alien já é complicado, imagina para dois tipos diferentes!
+
+Boa sorte para seus jogadores se escolher colocar algo assim para eles :)
+
+&mdash;&mdash;&mdash;
+
+Acredito que com essas ideias, não faltará formas de você trazer o terror e suspense da franquia Alien para suas sessões. O que vocês acharam? Digam lá no Twitter =)
+
+Até o próximo artigo.
+
+[um pouco antes do natal]: https://twitter.com/rpgdm/status/1207754167047131136
+[pdf do livro alien rpg]: https://www.drivethrurpg.com/product/293976/ALIEN-RPG-Core-Rulebook?affiliate_id=2024265

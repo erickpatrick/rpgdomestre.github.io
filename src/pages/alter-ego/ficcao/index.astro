@@ -1,0 +1,29 @@
+---
+import Internal from "../../../layouts/Internal.astro";
+import AlterEgoSection from "../../../components/AlterEgo/Section.astro";
+import * as Index from "./_index.md";
+
+const title = "Ficção";
+const description = "";
+const color = "yellow";
+const section = "Alter Ego";
+const keywords =
+  "rpg, roleplaying games, roleplaying, rpgdm, rpg do mestre, alter ego, sistema, system, d6, aes, alter ego system, cenário, scenario";
+---
+
+<Internal
+  title={title}
+  color={color}
+  description={description}
+  section={section}
+  keywords={keywords}
+>
+  <Fragment set:html={Index.compiledContent()} />
+  <div class="md:flex md:-mx-36">
+    <AlterEgoSection
+      name="Dackers"
+      description="O mundo é parecido com o que conhecemos: mesmas cidades, países e condições climáticas. Porém, a tecnologia é muito mais avançada e a população tem vivido muito mais numa versão aprimorada da Internet: a Grade."
+      href="/alter-ego/ficcao/dackers"
+    />
+  </div>
+</Internal>

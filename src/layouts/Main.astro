@@ -1,0 +1,25 @@
+---
+import Footer from "../components/Footer.astro";
+const { content, title, description, keywords } = Astro.props;
+const localTitle = content?.title ?? title + " | RPG do Mestre"
+const localDescription = content?.description ?? description ?? "Onde o mestre cria, reinventa, modifica e publica RPG"
+const localKeywords = content?.keywords ?? keywords ?? "rpg, roleplaing game, rpg do mestre, rpgdm, jogos de interpretação de papeis, interpretação"
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{localTitle}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content={ localDescription }>
+  <meta name="keywords" content={ localKeywords }>
+</head>
+
+<body>
+  <slot /> <!-- your content is injected here -->
+  <Footer />
+</body>
+
+</html>

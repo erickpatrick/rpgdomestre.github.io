@@ -1,0 +1,36 @@
+---
+import Internal from "../../layouts/Internal.astro";
+import Section from "../../components/Weekly/Section.astro"
+import { stripHtml } from "../../lib/striphtml";
+import Pagination from "../../components/General/Pagination.astro";
+
+export async function getStaticPaths({ paginate }) {
+  const weeklies = await Astro.glob('./**/[0-9]*.md');
+
+  let weekliesPaths = weeklies.map(weekly => ({
+    weekly: {
+      url: weekly.url,
+      title: weekly.frontmatter.title,
+      description: `${stripHtml(weekly.compiledContent()).substr(0, 200)}…`,
+      date: weekly.frontmatter.date
+    }
+  }))
+
+  weekliesPaths = weekliesPaths.sort(function (a, b) {
+    return new Date(a.weekly.date) < new Date(b.weekly.date) ? 1 : -1
+  })
+
+  return paginate(weekliesPaths, { pageSize: 10 });
+}
+
+const { page } = Astro.props;
+---
+
+<Internal title="Weekly" color="blue">
+  <div class="flex flex-wrap sm:-m-12">
+    {page.data.map(({ weekly }) => <Section title={weekly.title} href={weekly.url}>
+      <Fragment set:html={weekly.description} />
+    </Section>)}
+  </div>
+  <Pagination prev={page.url.prev} next={page.url.next} />
+</Internal>
