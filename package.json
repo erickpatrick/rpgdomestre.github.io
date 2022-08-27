@@ -19,7 +19,6 @@
     "astro": "^1.0.0"
   },
   "dependencies": {
-    "@astrojs/vercel": "^1.0.1",
     "graphql-request": "^4.3.0",
     "lru-cache": "^7.14.0",
     "react": "npm:@preact/compat@latest",
