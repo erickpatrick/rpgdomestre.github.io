@@ -3,6 +3,10 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import image from "@astrojs/image";
 import preact from "@astrojs/preact";
+<<<<<<< HEAD
+=======
+import vercel from "@astrojs/vercel/serverless";
+>>>>>>> 843775f (adds changes to astro configuration)
 
 // https://astro.build/config
 export default defineConfig({
