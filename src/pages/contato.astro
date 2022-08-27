@@ -1,0 +1,15 @@
+---
+import Internal from "../layouts/Internal.astro";
+import Form from "../components/General/Form.jsx";
+import * as Contato from "./_contato.md";
+
+const title = "Contato";
+const description =
+  "Informações sobre como entrar em contato RPG do Mestre, seu criador e autores";
+const color = "gradient";
+---
+
+<Internal title={title} desccription={description} color={color}>
+  <Fragment set:html={Contato.compiledContent()} />
+  <Form website="rpgdomestre.com" action="/api/contact/create" client:load />
+</Internal>

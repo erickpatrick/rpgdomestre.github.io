@@ -1,0 +1,21 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/weekly/envie-um-link",
+      "destination": "/weeklies/edition/envie-um-link",
+      "permanent": true
+    },
+    {
+      "source": "/weekly/anuncie-na-weekly",
+      "destination": "/weeklies/edition/anuncie-na-weekly",
+      "permanent": true
+    },
+    {
+      "source": "/weekly",
+      "destination": "/weeklies",
+      "permanent": true
+    }
+  ]
+}

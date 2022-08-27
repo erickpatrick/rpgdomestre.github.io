@@ -1,0 +1,15 @@
+---
+const { title, href } = Astro.props
+---
+
+<div class="sm:p-12 md:w-1/2 flex flex-col items-start">
+  <h3 class="sm:text-3xl text-2xl title-font font-medium !text-blue-600 mt-4 mb-4">
+    {title}
+  </h3>
+  <p class="leading-relaxed mb-8">
+    <slot />
+  </p>
+  <a href={href} class="!text-blue-600 inline-flex items-center">
+    Ler mais »
+  </a>
+</div>

@@ -1,0 +1,35 @@
+---
+import Internal from "../../../layouts/Internal.astro";
+import AlterEgoSection from "../../../components/AlterEgo/Section.astro";
+import * as Index from "./_index.md";
+
+const title = "Cenários";
+const color = "yellow";
+const description =
+  "O Alter Ego tem, no momento, 2 cenários principais: Terra 2037 e Terra 3600.";
+const section = "Alter Ego";
+const keywords =
+  "rpg, roleplaying games, roleplaying, rpgdm, rpg do mestre, alter ego, sistema, system, d6, aes, alter ego system, cenário, scenario";
+---
+
+<Internal
+  title={title}
+  color={color}
+  description={description}
+  section={section}
+  keywords={keywords}
+>
+  <Fragment set:html={Index.compiledContent()} />
+  <div class="md:flex md:-mx-36">
+    <AlterEgoSection
+      name="Terra 2037"
+      description="A grande e nova Era da Informação chegou. O mundo inteiro está, literalmente, conectado."
+      href="/alter-ego/cenarios/terra-2037"
+    />
+    <AlterEgoSection
+      name="Terra 3600"
+      description="A Terra já não tem mais vida, o qeu restou do que conhecemos hoje está viajando pelo espaço."
+      href="/alter-ego/cenarios/terra-3600"
+    />
+  </div>
+</Internal>

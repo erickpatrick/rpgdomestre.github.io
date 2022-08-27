@@ -1,0 +1,22 @@
+---
+import Internal from "../../../../layouts/Internal.astro";
+import * as Index from "./_index.md";
+
+const title = "Terra 3600";
+const color = "yellow";
+const description =
+  "Terra 3600 é um cenário de jogo oficial do Sistema de jogos de interpretação (RPG), Alter Ego.";
+const section = "Cenários";
+const keywords =
+  "rpg, roleplaying games, roleplaying, rpgdm, rpg do mestre, alter ego, sistema, system, d6, aes, alter ego system, cenário, scenario";
+---
+
+<Internal
+  title={title}
+  color={color}
+  description={description}
+  section={section}
+  keywords={keywords}
+>
+  <Fragment set:html={Index.compiledContent()} />
+</Internal>

@@ -1,0 +1,32 @@
+---
+const { prev, next } = Astro.props;
+---
+
+<div class="flex flex-wrap sm:-m-12 py-20">
+  <div class="sm:p-12 w-full flex items-start justify-between">
+    {prev == undefined && <span />}
+    {
+      prev != undefined && (
+        <a
+          href={prev}
+          class="inline-block px-2 py-1 font-bold bg-gray-300 rounded hover:bg-gray-600 hover:text-gray-100 !no-underline"
+          title="Página anterior"
+        >
+          Anterior
+        </a>
+      )
+    }
+    {next == undefined && <span />}
+    {
+      next != undefined && (
+        <a
+          href={next}
+          class="inline-block px-2 py-1 font-bold bg-gray-300 rounded hover:bg-gray-600 hover:text-gray-100 !no-underline"
+          title="Próxima página"
+        >
+          Próxima
+        </a>
+      )
+    }
+  </div>
+</div>

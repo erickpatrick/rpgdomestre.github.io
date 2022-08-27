@@ -1,0 +1,28 @@
+---
+import Internal from "../../../layouts/Internal.astro";
+import Alert from "../../../components/General/Alert.astro";
+import * as Index from "./_index.md";
+
+const title = "Sistema";
+const color = "yellow";
+const description =
+  "Focando no minimalismo de regras, o Alter Ego é um sistema bem fluido que facilita a criação do mestre e as ações dos jogadores.";
+const section = "Alter Ego";
+const keywords =
+  "rpg, roleplaying games, roleplaying, rpgdm, rpg do mestre, alter ego, sistema, system, d6, aes, alter ego system, cenário, scenario";
+---
+
+<Internal
+  title={title}
+  color={color}
+  description={description}
+  section={section}
+  keywords={keywords}
+>
+  <Alert
+    name="Versão Alpha #5"
+    description="O conteúdo dessa página ainda se encontra incompleto. As partes faltantes estão em revisão e serão colocadas online assim que finalizadas."
+    type="warning"
+  />
+  <Fragment set:html={Index.compiledContent()} />
+</Internal>
