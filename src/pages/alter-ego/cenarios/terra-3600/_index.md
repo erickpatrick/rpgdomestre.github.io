@@ -1,0 +1,15 @@
+---
+---
+
+Saiba mais sobre o _Terra 3600_ na série de artigos sobre o cenário. Abaixo você encontra a lista atualizada com todos os artigos:
+
+## A queda do homo Sapiens
+
+- [Parte 1: Anos 2200 aos 2600](/artigos/2021/01/o-mundo-de-alter-ego-terra-3600/)
+- [Parte 2: Anos 2700 aos 3300](/artigos/2021/01/o-mundo-de-alter-ego-terra-3600-parte-2/)
+- [Parte 3: Anos 3400 e 3500, e começo dos anos 3600](/artigos/2021/01/o-mundo-de-alter-ego-terra-3600-parte-3/)
+
+## Homo Ex Machina
+
+- [O mundo de Alter Ego, Terra 3600: parte 4](/artigos/2021/01/o-mundo-de-alter-ego-terra-3600-parte-4/)
+- [O mundo de Alter Ego, Terra 3600: parte 5](/artigos/2021/01/o-mundo-de-alter-ego-terra-3600-parte-5/)

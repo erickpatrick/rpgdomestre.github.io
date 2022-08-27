@@ -1,0 +1,17 @@
+---
+layout: "../../layouts/Internal.astro"
+title: "Envie um Link"
+description: >-
+  "Envie um link que você ache interessante, para, quem sabe, aparecer na Weekly!"
+color: "blue"
+section: "Weekly"
+---
+
+Você acredita que tem algum link que talvez eu não tenha conhecimento e quer que eu veja? Você pode mandar um email para **_rpgdm(arroba)erickpatrick.net_**, com o assunto "_Link para Weekly_".
+
+No corpo do email, por favor, adicione:
+
+- Título do artigo/site
+- Link para o artigo/página
+
+Alternativamente, você também pode enviar o link como mensagem através do Twitter: <a href="https://twitter.com/rpgdm">@rpgdm</a>. Acesso ele diariamente e a chance de vê-lo é bem alta.

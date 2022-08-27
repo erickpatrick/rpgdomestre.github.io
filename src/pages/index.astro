@@ -1,0 +1,24 @@
+---
+import Main from "../layouts/Main.astro";
+import Section from "../components/Home/Section.astro";
+import HomeHero from "../components/Home/Hero.astro";
+---
+
+<Main>
+  <div class="bg-white">
+    <HomeHero></HomeHero>
+    <div class="container mx-auto p-4">
+      <div class="lg:flex">
+        <Section name="Weekly" subtitle="O melhor no mundo do RPG"
+          description="Fique por dentro do mais interessante e do que de melhor aconteceu no mundo do RPG nessa curadoria semanal de artigos, notícias, novos produtos e financiamentos coletivos."
+          href="/weeklies/1" color="blue"></Section>
+        <Section name="Artigos" subtitle="Ideias e dicas sobre RPG"
+          description="Volta e meia, trago alguns textos próprios com ideias e dicas para serem aplicadas em sessões de RPG. Ganchos de aventuras, novos personagens,  itens mágicos, mapas e mais!"
+          href="/artigos/1" color="pink"></Section>
+        <Section name="Alter Ego" subtitle="O RPG criado aqui, no RPGdM"
+          description="Algumas ideias precisam ser mais trabalhadas que outras. O Alter Ego é uma ideia que engloba um sistema, alguns cenários e romances com muita  ficção científica."
+          href="/alter-ego" color="yellow"></Section>
+      </div>
+    </div>
+  </div>
+</Main>

@@ -1,0 +1,10 @@
+---
+layout: "../../layouts/Internal.astro"
+title: "Artigos Patrocinados"
+description: >-
+  "Quer um publieditorial no RPG do Mestre? Acesse essa página e saiba mais."
+color: "pink"
+section: "Artigos"
+---
+
+Se você quer patrocinar algum artigo, os chamados publieditoriais, você pode mandar um email para **_rpgdm(arroba)erickpatrick.net_**, com o assunto "_Publieditorial_". Através desse email inicial, nós começaremos a discutir os termos dessa parceria e farei o possível para colocá-la em prática o mais rápido possível.

@@ -1,0 +1,10 @@
+---
+layout: "../../layouts/Internal.astro"
+title: "Anuncie na Weekly"
+description: >-
+  "Quer patrocinar alguma Weekly no RPG do Mestre? Acesse essa página e saiba mais."
+color: "blue"
+section: "Weekly"
+---
+
+Se você quer patrocinar alguma edição da Weekly, você pode mandar um email para **_rpgdm(arroba)erickpatrick.net_**, com o assunto "_Patrocínio Weekly_". Através desse email inicial, nós começaremos a discutir os termos dessa parceria e farei o possível para colocá-la em prática o mais rápido possível.
