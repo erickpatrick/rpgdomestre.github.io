@@ -8,6 +8,12 @@ const limiter = rateLimit({
   uniqueTokenPerInterval: 500, // Max 500 users per second
 });
 
+export async function get({ params, request }) {
+  return new Response(JSON.stringify({}), {
+    status: 200,
+  });
+}
+
 export async function post({ params, request }) {
   try {
     const json = await request.json();
