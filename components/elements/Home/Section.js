@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Section({ name, subtitle, description, href, color }) {
   return (
     <div className={`${name} lg:w-1/3`}>
@@ -13,12 +15,12 @@ export default function Section({ name, subtitle, description, href, color }) {
         <p className="max-w-4xl text-lg sm:text-2xl sm:leading-10 space-y-6 mb-6">
           {description}
         </p>
-        <a
+        <Link
           className={`inline-flex text-lg sm:text-2xl font-medium transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:ring-current focus:outline-none rounded-md text-${color}-600 hover:text-${color}-800`}
           href={href}
         >
           Saiba mais &raquo;
-        </a>
+        </Link>
       </div>
     </div>
   );
